@@ -1,0 +1,51 @@
+//  Copyright © 2022 DuckDuckGo. All rights reserved.
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//  http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//
+
+#include "AppTargetsBase.xcconfig"
+#include "../DeveloperID.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = $(MAIN_BUNDLE_IDENTIFIER)
+
+CODE_SIGN_ENTITLEMENTS = DuckDuckGo/DuckDuckGo.entitlements
+CODE_SIGN_ENTITLEMENTS[config=Debug][arch=*][sdk=*] = DuckDuckGo/DuckDuckGoDebug.entitlements
+
+CODE_SIGN_IDENTITY[sdk=macosx*] = Developer ID Application
+CODE_SIGN_IDENTITY[config=Debug][sdk=macosx*] = Apple Development
+
+FEATURE_FLAGS = FEEDBACK SPARKLE STRIPE
+
+PRODUCT_NAME_PREFIX = DuckDuckGo
+
+PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*] =
+PROVISIONING_PROFILE_SPECIFIER[config=CI][sdk=macosx*] = match Direct com.duckduckgo.macos.browser.debug macos
+PROVISIONING_PROFILE_SPECIFIER[config=Release][sdk=macosx*] = match Direct com.duckduckgo.macos.browser macos
+PROVISIONING_PROFILE_SPECIFIER[config=Review][sdk=macosx*] = match Direct com.duckduckgo.macos.browser.review macos
+
+GCC_PREPROCESSOR_DEFINITIONS[arch=*][sdk=*] = NETP_SYSTEM_EXTENSION=1 SWIFT_OBJC_INTERFACE_HEADER_NAME=$(SWIFT_OBJC_INTERFACE_HEADER_NAME) uint64_t="unsigned long long" _UINT64_T=1
+GCC_PREPROCESSOR_DEFINITIONS[config=CI][arch=*][sdk=*] = NETP_SYSTEM_EXTENSION=1 DEBUG=1 CI=1 SWIFT_OBJC_INTERFACE_HEADER_NAME=$(SWIFT_OBJC_INTERFACE_HEADER_NAME) $(inherited)
+GCC_PREPROCESSOR_DEFINITIONS[config=Debug][arch=*][sdk=*] = NETP_SYSTEM_EXTENSION=1 DEBUG=1 SWIFT_OBJC_INTERFACE_HEADER_NAME=$(SWIFT_OBJC_INTERFACE_HEADER_NAME) $(inherited)
+GCC_PREPROCESSOR_DEFINITIONS[config=Review][arch=*][sdk=*] = NETP_SYSTEM_EXTENSION=1 REVIEW=1 SWIFT_OBJC_INTERFACE_HEADER_NAME=$(SWIFT_OBJC_INTERFACE_HEADER_NAME) $(inherited)
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*][sdk=*] = NETP_SYSTEM_EXTENSION $(FEATURE_FLAGS)
+SWIFT_ACTIVE_COMPILATION_CONDITIONS[config=CI][arch=*][sdk=*] = NETP_SYSTEM_EXTENSION DEBUG CI $(FEATURE_FLAGS)
+SWIFT_ACTIVE_COMPILATION_CONDITIONS[config=Debug][arch=*][sdk=*] = NETP_SYSTEM_EXTENSION DEBUG $(FEATURE_FLAGS)
+SWIFT_ACTIVE_COMPILATION_CONDITIONS[config=Review][arch=*][sdk=*] = NETP_SYSTEM_EXTENSION REVIEW $(FEATURE_FLAGS)
+
+// Install Developer ID build to /Applications/DEBUG/
+DEPLOYMENT_LOCATION[config=Debug] = YES;
+DSTROOT[config=Debug] = ${BUILT_PRODUCTS_DIR}
+INSTALL_PATH[config=Debug] = Applications/DEBUG
+
+#include? "../../LocalOverrides.xcconfig"

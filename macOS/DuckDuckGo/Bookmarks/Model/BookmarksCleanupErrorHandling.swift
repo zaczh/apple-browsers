@@ -1,0 +1,43 @@
+//
+//  BookmarksCleanupErrorHandling.swift
+//
+//  Copyright © 2023 DuckDuckGo. All rights reserved.
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//  http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//
+
+import Foundation
+import Bookmarks
+import Common
+import Persistence
+import PixelKit
+
+public class BookmarksCleanupErrorHandling: EventMapping<BookmarksCleanupError> {
+
+    public init() {
+        super.init { event, _, _, _ in
+            if event.cleanupError is BookmarksCleanupCancelledError {
+                PixelKit.fire(DebugEvent(GeneralPixel.bookmarksCleanupAttemptedWhileSyncWasEnabled))
+            } else {
+                let processedErrors = CoreDataErrorsParser.parse(error: event.cleanupError as NSError)
+                let params = processedErrors.errorPixelParameters
+
+                PixelKit.fire(DebugEvent(GeneralPixel.bookmarksCleanupFailed, error: event.cleanupError), withAdditionalParameters: params)
+            }
+        }
+    }
+
+    override init(mapping: @escaping EventMapping<BookmarksCleanupError>.Mapping) {
+        fatalError("Use init()")
+    }
+}
