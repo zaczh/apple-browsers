@@ -1,0 +1,33 @@
+Hos DuckDuckGo mener vi at den beste metoden for å beskytte personopplysninger mot hackere, svindlere og selskaper som krenker personvernet, er å hindre at den blir samlet inn i det hele tatt. Det er derfor millioner av mennesker velger DuckDuckGo fremfor Chrome og andre nettlesere  til å søke og surfe på nettet. Den innebygde søkemotoren vår er som Google, men sporer aldri søkene dine. Og surfebeskyttelsene våre, som blokkering av annonsesporing og informasjonskapsler, hindrer andre selskaper i å samle inn dataene dine. Dessuten er nettleseren vår gratis. Vi tjener penger på søkeannonser som respekterer personvern, ikke ved å utnytte dataene dine. Ta tilbake kontroll over din personlige informasjon med nettleseren som er utviklet for databeskyttelse, ikke datainnsamling. 
+
+HØYDEPUNKTER
+Beskytt søkene dine som standard: DuckDuckGo Search er innebygd, så du lett kan søke på nettet uten å bli sporet. 
+
+Beskytt nettleserhistorikken din: Vår tredjeparts Tracker Loading Protection blokkerer de fleste sporere før de blir lastet, noe som i stor grad overgår hva de fleste populære nettlesere tilbyr som standard. 
+
+Sikre e-posten din (valgfritt): Bruk Email Protection til å blokkere de fleste e-postsporere og skjule den eksisterende e-postadressen din med @duck.com-adresser.  
+
+Se YouTube-videoer uten målrettede annonser: Duck Player beskytter deg mot målrettede annonser og informasjonskapsler med et forstyrrelsesfritt grensesnitt som bruker YouTubes strengeste personverninnstillinger for innebygd video.
+
+Fremtving kryptering automatisk: Beskytt dataene dine mot nettverks- og wifi-snokere ved å tvinge mange nettsteder til å bruke en HTTPS-tilkobling. 
+
+Unngå fingerprinting: Gjør det vanskeligere for selskaper å opprette en unik identifikator for deg ved å blokkere forsøk på å kombinere informasjon om nettleseren og enheten din. 
+
+Synkroniser og sikkerhetskopier på en sikker måte (valgfritt): Synkroniser krypterte bokmerker og passord mellom alle enhetene dine.
+
+Tøm fane- og nettleserdata på et blunk med Fire Button.
+
+Bli kvitt popup-vinduer for informasjonskapsler og angi preferansene dine automatisk til å minimere informasjonskapsler og maksimere personvernet.
+
+Og mange flere beskyttelser som ikke er tilgjengelige på de fleste nettlesere, selv i privat surfemodus, inkludert beskyttelse mot lenkesporing, Global Privacy Control (GPC) m.m.
+
+Du behøver ikke å vente med å ta kontroll over din personlige informasjon! Bli en av de millionene av mennesker som bruker DuckDuckGo til å beskytte sine søk og sin surfing og e-post hver dag. 
+
+Les mer om våre gratis sporingsbeskyttelser på https://help.duckduckgo.com/privacy/web-tracking-protections
+
+Personvernerklæring: https://duckduckgo.com/privacy/ 
+
+Vilkår for bruk: https://duckduckgo.com/terms
+
+Merknad om tredjeparts sporingsbeskyttelse og søkeannonser: Selv om det er noen begrensninger etter klikk på søkeannonser, ser du på annonser anonymt i DuckDuckGo-søk. Les mer her https://help.duckduckgo.com/privacy/web-tracking-protections
+

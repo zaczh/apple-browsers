@@ -1,0 +1,33 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "DuckDuckGo";
+
+/* Bundle name */
+"CFBundleName" = "DuckDuckGo";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "Umožňuje vám nahrávať fotografie a videá";
+
+/* Privacy - Face ID Usage Description */
+"NSFaceIDUsageDescription" = "Umožňuje vám odomknutie pomocou funkcie Face ID";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "Umožňuje vám zdieľať vašu polohu";
+
+/* Privacy - Microphone Usage Description */
+"NSMicrophoneUsageDescription" = "Toto sa požaduje na používanie hlasových funkcií. DuckDuckGo nikdy nenahráva, čo hovoríte.";
+
+/* Privacy - Photo Library Additions Usage Description */
+"NSPhotoLibraryAddUsageDescription" = "Umožňuje vám ukladať obrázky do vášho zariadenia";
+
+/* Privacy - Speech Recognition Usage Description */
+"NSSpeechRecognitionUsageDescription" = "Toto sa vyžaduje na použitie hlasového vyhľadávania. DuckDuckGo nikdy nenahráva, čo hovoríte.";
+
+/* (No Comment) */
+"Paste from clipboard" = "Prilepiť zo schránky";
+
+/* (No Comment) */
+"Paste from Clipboard" = "Prilepiť zo schránky";
+
+/* (No Comment) */
+"Search Passwords" = "Vyhľadávanie hesiel";
+

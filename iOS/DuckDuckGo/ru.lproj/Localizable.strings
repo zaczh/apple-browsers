@@ -1,0 +1,3100 @@
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%@ " = "%@ ";
+
+/* Buton label for Edit action */
+"action.generic.edit" = "Редактировать";
+
+/* Button label for a generic show action */
+"action.generic.show" = "Показать";
+
+/* Button label for Undo action */
+"action.generic.undo" = "Отменить";
+
+/* Button label for managing favorites */
+"action.manage.favorites" = "Настроить";
+
+/* Button label for OK action */
+"action.ok" = "Хорошо";
+
+/* Title for text zoom menu item.  %d%% is replaced with percent, e.g. 56% so do not change that please. */
+"action.text-zoom-menu-item" = "Масштаб (%d%%)";
+
+/* Text zoom menu item */
+"action.text-zoom-sheet-menu-item" = "Масштаб";
+
+/* Title for text zoom sheet view.  %d%% is replaced with percent, e.g. 56% so do not change that please. */
+"action.text-zoom-sheet-title" = "Масштаб текста (%d%%)";
+
+/* Add action - button shown in alert */
+"action.title.add" = "Добавить";
+
+/* Autofill Logins menu item opening the login list */
+"action.title.autofill.logins" = "Пароли";
+
+/* Confirmation of Add to Bookmarks action in Add All Open Tabs to Bookmarks alert */
+"action.title.bookmark" = "Добавить в закладки";
+
+/* Button: Open bookmarks list */
+"action.title.bookmarks" = "Закладки";
+
+/* Cancel action - button shown in alert */
+"action.title.cancel" = "Отменить";
+
+/* Copy action */
+"action.title.copy" = "Копировать";
+
+/* Floating message indicating URL has been copied */
+"action.title.copy.message" = "Адрес скопирован";
+
+/* Delete action - button shown in alert */
+"action.title.delete" = "Удалить";
+
+/* Disable protection action */
+"action.title.disable.protection" = "Отключить защиту конфиденциальности";
+
+/* Downloads menu item opening the downlods list */
+"action.title.downloads" = "Загрузки";
+
+/* Open AI Chat action in the menu list */
+"action.title.duckai" = "Чат с ИИ";
+
+/* Edit Bookmark action */
+"action.title.edit.bookmark" = "Редактировать закладку";
+
+/* Enable protection action */
+"action.title.enable.protection" = "Включить защиту конфиденциальности";
+
+/* No comment provided by engineer. */
+"action.title.forgetAll" = "Закрыть вкладки и удалить данные";
+
+/* Confirmation message */
+"action.title.forgetAllDone" = "Вкладки и данные сброшены";
+
+/* Open in New Background Tab action */
+"action.title.newBackgroundTabForUrl" = "Открыть в фоновом режиме";
+
+/* Create New Tab action */
+"action.title.newTabAction" = "Новая вкладка";
+
+/* Open in New Tab action */
+"action.title.newTabForUrl" = "Открыть в новой вкладке";
+
+/* Open action */
+"action.title.open" = "Открыть";
+
+/* Paste and Go action */
+"action.title.pasteAndGo" = "Вставить и перейти";
+
+/* Print action in the menu header */
+"action.title.print" = "Распечатать";
+
+/* Print action in the menu list */
+"action.title.print.site" = "Распечатать";
+
+/* Refresh action - button shown in alert */
+"action.title.refresh" = "Обновить";
+
+/* Remove Favorite action */
+"action.title.remove.favorite" = "Удалить из избранного";
+
+/* Report broken site action */
+"action.title.reportBrokenSite" = "Сообщить о неработающем сайте";
+
+/* Action to reload current page in desktop mode */
+"action.title.request.desktop.site" = "Полная версия сайта";
+
+/* Action to reload current page in mobile mode */
+"action.title.request.mobile.site" = "Мобильная версия";
+
+/* Save action - button shown in alert */
+"action.title.save" = "Сохранить";
+
+/* Add to Bookmarks action */
+"action.title.save.bookmark" = "Добавить закладку";
+
+/* Add to Favorites action */
+"action.title.save.favorite" = "Добавить в избранное";
+
+/* Settings action */
+"action.title.settings" = "Настройки";
+
+/* Share action */
+"action.title.share" = "Поделиться";
+
+/* Settings label for bottom position for the address bar */
+"address.bar.bottom" = "Внизу";
+
+/* Settings label for top position for the address bar */
+"address.bar.top" = "Вверх";
+
+/* No comment provided by engineer. */
+"addWidget.button" = "Добавить виджет";
+
+/* No comment provided by engineer. */
+"addWidget.description" = "Быстрый доступ к конфиденциальному поиску и любимым сайтам.";
+
+/* No comment provided by engineer. */
+"addWidget.settings.firstParagraph" = "Удерживайте палец в любой точке домашнего экрана, пока приложения не начнут «дрожать».";
+
+/* No comment provided by engineer. */
+"addWidget.settings.secondParagraph" = "Нажмите кнопку **Править** и выберите вариант **Добавить виджет**";
+
+/* Replacement string is a plus button icon. */
+"addWidget.settings.secondParagraph.%@" = "Нажмите кнопку «плюс» %@.";
+
+/* No comment provided by engineer. */
+"addWidget.settings.title" = "Найдите и выберите **DuckDuckGo**. Затем выберите виджет.";
+
+/* No comment provided by engineer. */
+"addWidget.title" = "Доступ к любимым сайтам в одно касание.";
+
+/* No comment provided by engineer. */
+"alert.message.bookmarkAll" = "Существующие закладки дублироваться не будут.";
+
+/* Description for alert shown when sync error occurs because of bad bookmarks data */
+"alert.sync-bookmarks-bad-data-error-description" = "Некоторые закладки не синхронизируются из-за неверного формата или превышения ограничений по длине.";
+
+/* Description for alert shown when sync bookmarks paused for too many items */
+"alert.sync-bookmarks-paused-description" = "Достигнуто максимальное число закладок. Чтобы возобновить синхронизацию, удалите некоторые из них.";
+
+/* Title for alert shown when sync bookmarks paused for too many items */
+"alert.sync-bookmarks-paused-title" = "Синхронизация закладок приостановлена";
+
+/* Description for alert shown when sync error occurs because of bad credentials data */
+"alert.sync-credentials-bad-data-error-description" = "Некоторые пароли не синхронизируются из-за неверного формата или превышения ограничений по длине.";
+
+/* Description for alert shown when sync credentials paused for too many items */
+"alert.sync-credentials-paused-description" = "Достигнуто максимальное число паролей. Чтобы возобновить синхронизацию, удалите некоторые из них.";
+
+/* Title for alert shown when sync credentials paused for too many items */
+"alert.sync-credentials-paused-title" = "Синхронизация паролей приостановлена";
+
+/* Title for sync error alert */
+"alert.sync-error" = "Ошибка синхронизации и резервного копирования";
+
+/* Sync error alert action button title, takes the user to the sync settings page. */
+"alert.sync-error-action" = "Синхронизация настроек";
+
+/* Description for alert shown when user logged off from sync */
+"alert.sync-invalid-login-error-description" = "Синхронизация приостановлена. Чтобы возобновить ее, выполните повторную привязку, используя другое устройство или код восстановления.";
+
+/* Learn more button in alert */
+"alert.sync-paused-alert-learn-more-button" = "Узнать больше";
+
+/* Confirmation button in alert */
+"alert.sync-paused-alert-ok-button" = "Хорошо";
+
+/* Title for alert shown when sync paused for an error */
+"alert.sync-paused-title" = "Синхронизация приостановлена";
+
+/* Switch account button in alert */
+"alert.sync-switch-account-button" = "Переключить синхронизацию";
+
+/* Description for switching sync accounts when there's two */
+"alert.sync-switch-account-message" = "Это устройство уже синхронизировано. Действительно синхронизировать его с другой резервной копией или устройством? Переключение не приведет к удалению данных, синхронизированных с этим устройством ранее.";
+
+/* Switch account title in alert */
+"alert.sync-switch-account-title" = "Переключиться на другую синхронизацию?";
+
+/* Description for alert shown when sync error occurs because of too many requests */
+"alert.sync-too-many-requests-error-description" = "Функция «Синхронизация и резервное копирование» временно недоступна.";
+
+/* Title of the warning message that tells the user that there was an error with the sync feature. */
+"alert.sync.warning.sync-error" = "Ошибка синхронизации";
+
+/* Title of the warning message */
+"alert.sync.warning.sync-paused" = "Синхронизация и резервное копирование на паузе";
+
+/* Question from confirmation dialog */
+"alert.title.bookmarkAll" = "Добавить все вкладки в закладки?";
+
+/* Disable protection alert */
+"alert.title.disable.protection" = "Добавить в незащищенные сайты";
+
+/* Disable potection alert placeholder - leave as it is */
+"alert.title.disable.protection.placeholder" = "www.example.com";
+
+/* Save Bookmark action */
+"alert.title.save.bookmark" = "Сохранить закладку";
+
+/* Save Favorite action */
+"alert.title.save.favorite" = "Сохранить в избранное";
+
+/* Description for unable to create recovery pdf error */
+"alert.unable-to-create-recovery-pdf-description" = "Не удалось создать PDF-файл для восстановления.";
+
+/* Description for unable to delete data error */
+"alert.unable-to-delete-data-description" = "Не удалось удалить данные с сервера.";
+
+/* Description for unable to merge two accounts error */
+"alert.unable-to-merge-two-accounts-description" = "Чтобы выполнить сопряжение этих устройств, отключите функцию «Синхронизация и резервное копирование» на одном из них и нажмите кнопку «Синхронизировать с другим устройством» на другом.";
+
+/* Description for unable to remove device error */
+"alert.unable-to-remove-device-description" = "Не удалось удалить устройство из списка синхронизации и резервного копирования.";
+
+/* Description for unable to sync to server error */
+"alert.unable-to-sync-to-server-description" = "Не удалось подключиться к серверу.";
+
+/* Description for unable to sync with another device error */
+"alert.unable-to-sync-with-other-device-description" = "Не удалось выполнить синхронизацию с другим устройством.";
+
+/* Description for unable to turn sync off error */
+"alert.unable-to-turn-sync-off-description" = "Не удалось отключить синхронизацию и резервное копирование.";
+
+/* Description for unable to update device name error */
+"alert.unable-to-update-device-name-description" = "Не удалось обновить имя устройства.";
+
+/* Shown on authentication screen */
+"app.authentication.unlock" = "Разблокируйте DuckDuckGo.";
+
+/* Authentication Alert Sign In Button */
+"auth.alert.login.button" = "Войти";
+
+/* Authentication Alert - populated with a domain name */
+"auth.alert.message.encrypted" = "Войдите в %@. Ваши учетные данные надежно защищены.";
+
+/* Authentication Alert - populated with a domain name */
+"auth.alert.message.plain" = "Войдите в %@. Ваш пароль передается по незащищенному каналу (соединение не зашифровано).";
+
+/* Authentication Password field placeholder */
+"auth.alert.password.placeholder" = "Пароль";
+
+/* Authentication Alert Title */
+"auth.alert.title" = "Требуется авторизация";
+
+/* Authentication User name field placeholder */
+"auth.alert.username.placeholder" = "Имя пользователя";
+
+/* No comment provided by engineer. */
+"autoclear.off" = "Выключено";
+
+/* No comment provided by engineer. */
+"autoclear.on" = "Включено";
+
+/* Subtitle for search history items */
+"autocomplete.history.search.duckduckgo" = "Поиск в DuckDuckGo";
+
+/* The message text shown in suggestions */
+"autocomplete.history.warning.message" = "Теперь рекомендации включают недавно посещенные вами сайты. Их можно отключить в настройках или очистить с помощью кнопки Fire Button 🔥.";
+
+/* Title for message show in suggestions */
+"autocomplete.history.warning.title" = "Та же конфиденциальность.\nЛучшие поисковые рекомендации!";
+
+/* Switch to tab hint */
+"autocomplete.switch.to.tab" = "Перейти на вкладку";
+
+/* Autoconsent for Cookie Management Setting state */
+"autoconsent.disabled" = "Отключено";
+
+/* Autoconsent for Cookie Management Setting state */
+"autoconsent.enabled" = "Включено";
+
+/* No comment provided by engineer. */
+"autoconsent.info.header" = "Если DuckDuckGo обнаружит всплывающее окно выбора куки-файлов на каком-либо сайте, мы попытаемся автоматически выбрать минимум куки, максимально защитив ваши данные, а затем закроем окно. Некоторые сайты не позволяют контролировать настройки куки-файлов. В этом случае мы можем их только скрыть.";
+
+/* Open Settings action for disabling autofill in Settings */
+"autofill.disable.prompt.action.open-settings" = "Открыть Настройки";
+
+/* Message for informing user that they can disable autofill in Settings */
+"autofill.disable.prompt.message" = "Хранение паролей можно отключить в любой момент.";
+
+/* Text link to email protection website */
+"autofill.enable.email.protection" = "Включите защиту электронной почты";
+
+/* Accessibility title for a Hide Password button replacing displayed password with ***** */
+"autofill.hide-password" = "Скрыть пароль";
+
+/* Button label to get link to download the desktop browser */
+"autofill.import.passwords.get-browser-button" = "Скачать настольный браузер";
+
+/* Step 1 for instructions to import passwords */
+"autofill.import.passwords.instructions.step1" = "Запустите DuckDuckGo на Mac или Windows";
+
+/* Step 2 for instructions to import passwords. This reads as 'Go to Settings > Passwords' */
+"autofill.import.passwords.instructions.step2" = "Откройте раздел «%1$@ > %2$@»";
+
+/* second parameter for autofill.import.passwords.instructions.step2 */
+"autofill.import.passwords.instructions.step2.passwords" = "Пароли";
+
+/* first parameter for autofill.import.passwords.instructions.step2 */
+"autofill.import.passwords.instructions.step2.settings" = "Настройки";
+
+/* Step 3 for instructions to import passwords. This reads as 'Select Import Passwords and follow the steps' */
+"autofill.import.passwords.instructions.step3" = "Выберите вариант «%@» и следуйте дальнейшим инструкциям";
+
+/* Parameter for autofill.import.passwords.instructions.step3 */
+"autofill.import.passwords.instructions.step3.import" = "Импортировать пароли...";
+
+/* Step 4 for instructions to import passwords: Once imported on your computer you can set up sync on this iPhone|iPad|device */
+"autofill.import.passwords.instructions.step4" = "По окончании импортирования на компьютер вы сможете настроить синхронизацию на данном %@";
+
+/* Title for section with instructions to import passwords */
+"autofill.import.passwords.instructions.title" = "Импорт из настольного браузера:";
+
+/* Subtitle for screen to import passwords */
+"autofill.import.passwords.subtitle" = "Импортируйте пароли в настольную версию браузера DuckDuckGo, а затем синхронизируйте их между устройствами.";
+
+/* Button label to sync passwords with desktop browser */
+"autofill.import.passwords.sync-button" = "Синхронизировать с компьютером";
+
+/* Title for screen to import passwords */
+"autofill.import.passwords.title" = "Как импортировать пароли";
+
+/* Disable action for alert when asking the user if they want to keep using autofill */
+"autofill.keep-enabled.alert.disable" = "Выключить";
+
+/* A link that takes the user to the DuckDuckGo help pages explaining password managers */
+"autofill.learn.more.link.title" = "Узнать больше";
+
+/* Button displayed after saving/updating an autofill login that takes the user to the saved login */
+"autofill.login-save-action-button.toast" = "Просмотр";
+
+/* Message displayed after saving an autofill login */
+"autofill.login-saved.toast" = "Пароль сохранен";
+
+/* Message displayed after updating an autofill login */
+"autofill.login-updated.toast" = "Пароль обновлен";
+
+/* Menu item text for copying autofill login details */
+"autofill.logins.copy-prompt" = "Копировать %@";
+
+/* Title for toast when copying address */
+"autofill.logins.copy-toast.address-copied" = "Адрес скопирован";
+
+/* Title for toast when copying notes */
+"autofill.logins.copy-toast.notes-copied" = "Примечания скопированы";
+
+/* Title for toast when copying password */
+"autofill.logins.copy-toast.password-copied" = "Пароль скопирован";
+
+/* Title for toast when copying username */
+"autofill.logins.copy-toast.username-copied" = "Имя пользователя скопировано!";
+
+/* Title of button in prompt requiring authentication before all passwords are deleted */
+"autofill.logins.delete.all.authentication.prompt.button" = "Авторизоваться";
+
+/* Title of prompt requiring authentication before all passwords are deleted */
+"autofill.logins.delete.all.authentication.prompt.title" = "Авторизация для удаления паролей";
+
+/* Reason for authentication when deleting all logins */
+"autofill.logins.delete.all.authentication.reason" = "Чтобы подтвердить удаление, выполните авторизацию";
+
+/* Address label for login details on autofill */
+"autofill.logins.details.address" = "Адрес сайта";
+
+/* Title for autofill login details */
+"autofill.logins.details.default-title" = "Пароль";
+
+/* Delete button when deleting an autofill login */
+"autofill.logins.details.delete" = "Удалить пароль";
+
+/* Autofill alert button confirming delete autofill login */
+"autofill.logins.details.delete-confirmation.button" = "Удалить пароль";
+
+/* Title when editing autofill login details */
+"autofill.logins.details.edit-title" = "Редактирование пароля";
+
+/* Placeholder for password field on autofill login details */
+"autofill.logins.details.edit.password-placeholder" = "Пароль";
+
+/* Placeholder for title field on autofill login details */
+"autofill.logins.details.edit.title-placeholder" = "Название";
+
+/* Placeholder for url field on autofill login details */
+"autofill.logins.details.edit.url-placeholder" = "example.com";
+
+/* Placeholder for userbane field on autofill login details */
+"autofill.logins.details.edit.username-placeholder" = "username@example.com";
+
+/* Message displaying when the login was last updated */
+"autofill.logins.details.last-updated" = "Последнее обновление: %@";
+
+/* Login name label for login details on autofill */
+"autofill.logins.details.login-name" = "Название";
+
+/* Title when adding new autofill login */
+"autofill.logins.details.new-title" = "Добавление пароля";
+
+/* Notes label for login details on autofill */
+"autofill.logins.details.notes" = "Примечания";
+
+/* Menu item title for option to open website from selected url */
+"autofill.logins.details.open-website-prompt.title" = "Открыть сайт";
+
+/* Password label for login details on autofill */
+"autofill.logins.details.password" = "Пароль";
+
+/* Action text for alert when attempting to save a duplicate login */
+"autofill.logins.details.save-duplicate-alert.action" = "Хорошо";
+
+/* Message for alert when attempting to save a duplicate login */
+"autofill.logins.details.save-duplicate-alert.message" = "У вас уже есть сохраненный пароль для этого сайта и имени пользователя.";
+
+/* Title for alert when attempting to save a duplicate login */
+"autofill.logins.details.save-duplicate-alert.title" = "Дубликат пароля";
+
+/* Username label for login details on autofill */
+"autofill.logins.details.username" = "Имя пользователя";
+
+/* Title for button to Import Passwords when autofill has no items */
+"autofill.logins.empty-view.button.title" = "Импорт паролей";
+
+/* Subtitle for view displayed when no autofill passwords have been saved */
+"autofill.logins.empty-view.subtitle.first.paragraph" = "В DuckDuckGo можно импортировать сохраненные пароли из другого браузера.";
+
+/* Title for view displayed when autofill has no items */
+"autofill.logins.empty-view.title" = "Сохраненных паролей пока нет";
+
+/* Cancel button for auth when opening login list */
+"autofill.logins.list.auth.cancel" = "Отменить";
+
+/* Reason for auth when opening login list */
+"autofill.logins.list.auth.reason" = "Разблокируйте устройство, чтобы получить доступ к паролям";
+
+/* Title for close navigation button */
+"autofill.logins.list.close-title" = "Закрыть";
+
+/* Title for button to delete all saved autofill passwords */
+"autofill.logins.list.delete.all" = "Удалить все";
+
+/* Title for a toggle that enables autofill */
+"autofill.logins.list.enable" = "Хранение и автозаполнение паролей";
+
+/* Footer label displayed below table section with option to enable autofill */
+"autofill.logins.list.enable.footer" = "Пароли надежно защищены и хранятся на вашем устройстве.";
+
+/* Toast message when a login item is deleted */
+"autofill.logins.list.login-deleted-message" = "Пароль от сайта %@ удален";
+
+/* Toast message when a login item without a title is deleted */
+"autofill.logins.list.login-deleted-message-no-title" = "Пароль удален";
+
+/* Title for a button that allows a user to reset their list of never saved sites */
+"autofill.logins.list.never.saved" = "Сбросить список исключений";
+
+/* Cancel button for resetting list of never saved sites */
+"autofill.logins.list.never.saved.reset.action.cancel" = "Отменить";
+
+/* Confirm button to reset list of never saved sites */
+"autofill.logins.list.never.saved.reset.action.confirm" = "Сбросить список исключений";
+
+/* Alert title */
+"autofill.logins.list.never.saved.reset.action.title" = "Если вы очистите список исключений, при следующем входе на любой из этих сайтов система предложит вам сохранить пароль.";
+
+/* Placeholder for search field on autofill login listing */
+"autofill.logins.list.search-placeholder" = "Найти пароль";
+
+/* Subtext under Autofill Settings briefly explaining security to alleviate user concerns. */
+"autofill.logins.list.settings.footer.fallback" = "Пароли подвергаются шифрованию. Никто, кроме вас, их не увидит. Даже мы.";
+
+/* Subtext under Autofill Settings briefly explaining security to alleviate user concerns. Has a URL link by clicking Learn More. */
+"autofill.logins.list.settings.footer.markdown" = "Пароли подвергаются шифрованию. Никто, кроме вас, их не увидит. Даже мы. [Подробнее...](ddgQuickLink://duckduckgo.com/duckduckgo-help-pages/sync-and-backup/password-manager-security/)";
+
+/* Section title for group of suggested saved logins */
+"autofill.logins.list.suggested" = "Рекомендации";
+
+/* Title for screen listing autofill logins */
+"autofill.logins.list.title" = "Пароли";
+
+/* Title for view displayed when autofill is locked on devices where a passcode has not been set */
+"autofill.logins.no-auth.subtitle" = "Для защиты паролей требуется код доступа.";
+
+/* Title for view displayed when autofill is locked on devices where a passcode has not been set */
+"autofill.logins.no-auth.title" = "Защита устройства и паролей";
+
+/* Cancel button for auth during login prompt */
+"autofill.logins.prompt.auth.cancel" = "Отменить";
+
+/* Reason for auth during login prompt */
+"autofill.logins.prompt.auth.reason" = "Разблокируйте устройство, чтобы использовать сохраненный пароль";
+
+/* Title for section of autofill logins that are an exact match to the current website */
+"autofill.logins.prompt.exact.match.title" = "С этого сайта";
+
+/* Button title for autofill login prompt if more options are available */
+"autofill.logins.prompt.more-options" = "Другие параметры";
+
+/* Title for section of autofill logins that are an approximate match to the current website */
+"autofill.logins.prompt.partial.match.title" = "Из %@";
+
+/* Title of button for autofill login prompt to use a saved password for a website */
+"autofill.logins.prompt.password.button.title" = "Пароль %@";
+
+/* Title for autofill login prompt */
+"autofill.logins.prompt.title" = "Использовать сохраненный пароль?";
+
+/* Subtitle displayed when there are no results on Autofill search, example : No Result (Title) for Duck (Subtitle) */
+"autofill.logins.search.no-results.subtitle" = "по запросу «%@»";
+
+/* Title displayed when there are no results on Autofill search */
+"autofill.logins.search.no-results.title" = "Нет результатов";
+
+/* Description of autofill onboarding prompt's secure storage feature
+Description of autofill onboarding prompt's secure storage feature with a string describing the available biometry + passcode as a parameter */
+"autofill.onboarding.key-features.secure-storage.description" = "Пароли в зашифрованном виде хранятся на устройстве, а их защиту обеспечивает %@.";
+
+/* Parameter for the description of autofill onboarding prompt's secure storage feature describing Face ID biometry + passcode */
+"autofill.onboarding.key-features.secure-storage.description.parameter.face-id" = "Face ID или код доступа";
+
+/* Parameter for the description of autofill onboarding prompt's secure storage feature describing passcode only if no biometry are available */
+"autofill.onboarding.key-features.secure-storage.description.parameter.passcode" = "код доступа";
+
+/* Parameter for the description of autofill onboarding prompt's secure storage feature describing Touch ID biometry + passcode */
+"autofill.onboarding.key-features.secure-storage.description.parameter.touch-id" = "Touch ID или код доступа";
+
+/* Title of autofill onboarding prompt's secure storage feature */
+"autofill.onboarding.key-features.secure-storage.title" = "Безопасное хранение";
+
+/* Description of autofill onboarding prompt's sign-in feature */
+"autofill.onboarding.key-features.sign-ins.description" = "Не нужно запоминать учетные данные.";
+
+/* Title of autofill onboarding prompt's sign-in feature */
+"autofill.onboarding.key-features.sign-ins.title" = "Удобный вход";
+
+/* Description of autofill onboarding prompt's sync feature */
+"autofill.onboarding.key-features.sync.description" = "Сквозное шифрование и удобная настройка на ваше усмотрение.";
+
+/* Title of autofill onboarding prompt's sync feature */
+"autofill.onboarding.key-features.sync.title" = "Синхронизация между устройствами";
+
+/* Title of autofill onboarding prompt's features list */
+"autofill.onboarding.key-features.title" = "Основные преимущества";
+
+/* Subtitle for prompt to use suggested strong password for creating a login */
+"autofill.password-generation-prompt.subtitle" = "Пароли надежно хранятся на вашем устройстве.";
+
+/* Title for prompt to use suggested strong password for creating a login */
+"autofill.password-generation-prompt.title" = "Как насчет надежного пароля от DuckDuckGo?";
+
+/* Button title choosing to use the suggested generated password for creating a login */
+"autofill.password-generation-prompt.use-generated-password.cta" = "Применить надежный пароль";
+
+/* Button title choosing to use own password for creating a login */
+"autofill.password-generation-prompt.use-own-password.cta" = "Создать собственный";
+
+/* Text for the confirmation message displayed when a user tries activate a Private Email Address */
+"autofill.private.email.mesage.activate.confirm.content" = "Электронные письма, отправленные на адрес %@, снова будут пересылаться на ваш почтовый ящик.";
+
+/* Title for the confirmation message  displayed when a user tries activate a Private Email Address */
+"autofill.private.email.mesage.activate.confirm.title" = "Вновь активировать приватный адрес Duck Address?";
+
+/* Mesasage displayed when a private email address is active */
+"autofill.private.email.mesage.active" = "Активирован";
+
+/* Text for the confirmation message displayed when a user tries deactivate a Private Email Address */
+"autofill.private.email.mesage.deactivate.confirm.content" = "Электронные письма, отправленные на адрес %@, не будут пересылаться на ваш почтовый ящик.";
+
+/* Title for the confirmation message displayed when a user tries deactivate a Private Email Address */
+"autofill.private.email.mesage.deactivate.confirm.title" = "Деактивировать приватный адрес Duck Address?";
+
+/* Mesasage displayed when a user tries to manage a private email address but the service is not available, returns an error or network is down */
+"autofill.private.email.mesage.error" = "Управление этим адресом временно недоступно";
+
+/* Mesasage displayed when a private email address is inactive */
+"autofill.private.email.mesage.inactive" = "Деактивирован";
+
+/* Button text for the alert dialog telling the user an updated username is no longer a private email address */
+"autofill.removed.duck.address.button" = "Понятно";
+
+/* Content for the alert dialog telling the user an updated username is no longer a private email address */
+"autofill.removed.duck.address.content" = "Вы по-прежнему можете управлять этим адресом Duck Address через поступившие на него письма в своем почтовом ящике.";
+
+/* Title for the alert dialog telling the user an updated username is no longer a private email address */
+"autofill.removed.duck.address.title" = "Приватное имя пользователя Duck Address удалено";
+
+/* CTA displayed on modal asking if the user never wants to be prompted to save a login for this website agin */
+"autofill.save-login.never-prompt.CTA" = "Больше не спрашивать на этом сайте";
+
+/* Title displayed on modal asking for the user to save the login for the first time */
+"autofill.save-login.new-user.title" = "Сохранить пароль?";
+
+/* CTA displayed on modal asking if the user wants to dismiss the save login action for now */
+"autofill.save-login.no-thanks.CTA" = "Нет, спасибо";
+
+/* Message displayed on modal asking for the user to save the login for the first time */
+"autofill.save-login.security.message" = "Вы можете сохранить этот пароль на устройстве под надежной защитой функции «Пароли и автозаполнение» от DuckDuckGo.";
+
+/* Title displayed on modal asking for the user to save the login */
+"autofill.save-login.title" = "Сохранить пароль?";
+
+/* Confirm CTA displayed on modal asking for the user to save the password */
+"autofill.save-password.save.CTA" = "Сохранить пароль";
+
+/* Title for the button to report that autofill is not working on a site in autofill settings */
+"autofill.settings.report.not.working.button.title" = "Сообщить о сбое автозаполнения";
+
+/* Button title for the confirmation prompt when reporting autofill is not working for a website */
+"autofill.settings.report.not.working.confirmation.button" = "Отправить жалобу";
+
+/* Message for the confirmation prompt when reporting autofill is not working for a website */
+"autofill.settings.report.not.working.confirmation.message" = "Отчеты о сбоях отправляются в DuckDuckGo анонимно, то есть без указания вашего имени пользователя, пароля и другой информации, по которой можно установить вашу личность.\n\nВ отчет входит только адрес сайта и состояние некоторых настроек автозаполнения.";
+
+/* Title for the confirmation prompt when reporting autofill is not working for a website */
+"autofill.settings.report.not.working.confirmation.title" = "Сообщить о сбое в работе автозаполнения на %@?";
+
+/* Message shown to user when they submit a report that autofill is not working for a website */
+"autofill.settings.report.not.working.sent.confirmation" = "Спасибо! Ваш отчет поможет нам улучшить DuckDuckGo для всех.";
+
+/* Subtitle for the row to report that autofill is not working on a site in autofill settings */
+"autofill.settings.report.not.working.subtitle" = "Анонимный отчет о сбое в работе функции автозаполнения на этом сайте. Ни в коем случае не включает пароли.";
+
+/* Title for the row to report that autofill is not working on a site in autofill settings */
+"autofill.settings.report.not.working.title" = "Не работает автозаполнение?";
+
+/* Accessibility title for a Show Password button displaying actial password instead of ***** */
+"autofill.show-password" = "Показать пароль";
+
+/* Message displayed to the user when they are logged out of Email protection. */
+"autofill.signin.to.manage" = "%@ для управления адресами Duck Address с этого устройства.";
+
+/* Message displayed on modal asking for the user to update the password */
+"autofill.update-password.message" = "DuckDuckGo обновит пароль, сохраненный на вашем устройстве.";
+
+/* Confirm CTA displayed on modal asking for the user to update the password */
+"autofill.update-password.save.CTA" = "Обновить пароль";
+
+/* Title displayed on modal asking for the user to update the password */
+"autofill.update-password.title" = "Обновить пароль для \n%@?";
+
+/* Confirm CTA displayed on modal asking for the user to update the login */
+"autofill.update-username.save.CTA" = "Обновить имя пользователя";
+
+/* Title displayed on modal asking for the user to update the username */
+"autofill.update-usernamr.title" = "Обновить имя пользователя?";
+
+/* Add bookmark screen title */
+"bookmark.addBookmark.title" = "Добавить закладку";
+
+/* Add favorite screen title */
+"bookmark.addFavorite.title" = "Добавить в избранное";
+
+/* Add folder screen title */
+"bookmark.addFolder.title" = "Добавить папку";
+
+/* Add bookmark folder button text */
+"bookmark.addFolderButton" = "Добавить папку";
+
+/* Placeholder in the add bookmark form */
+"bookmark.address.placeholder" = "www.example.com";
+
+/* Delete bookmark alert message */
+"bookmark.delete.alert.message" = "Это приведет к удалению закладки для «%@»";
+
+/* Delete bookmark alert title */
+"bookmark.delete.alert.title" = "Удалить?";
+
+/* The message shown after a bookmark has been deleted */
+"bookmark.deleted.toast" = "Закладка удалена";
+
+/* Delete bookmark folder alert delete button */
+"bookmark.deleteFolderAlert.deleteButton" = "Удалить";
+
+/* Delete bookmark folder alert title */
+"bookmark.deleteFolderAlert.title" = "Удалить %@?";
+
+/* Edit bookmark screen title */
+"bookmark.editBookmark.title" = "Редактировать закладку";
+
+/* Edit favorite screen title */
+"bookmark.editFavorite.title" = "Изменить избранное";
+
+/* Edit folder screen title */
+"bookmark.editFolder.title" = "Изменить папку";
+
+/* Header for folder selection for bookmarks */
+"bookmark.folderSelect.title" = "Геопозиция";
+
+/* More options button text */
+"bookmark.moreButton" = "больше";
+
+/* Placeholder in the bookmarks search bar */
+"bookmark.searchbar.placeholder" = "Поиск";
+
+/* Placeholder in the add bookmark form */
+"bookmark.title.placeholder" = "Название сайта";
+
+/* Top level bookmarks folder title */
+"bookmark.topLevelFolder.title" = "Закладки";
+
+/* Info message after selecting Bookmark All button */
+"bookmarkAll.tabs.failed" = "Все вкладки сохранены в закладках";
+
+/* Confirmation message after selecting Bookmark All button */
+"bookmarkAll.tabs.saved" = "Все вкладки добавлены в закладки";
+
+/* No comment provided by engineer. */
+"bookmarks.button.hint" = "Закладки";
+
+/* Failure message when bookmarks failed to export */
+"bookmarks.export.failed.message" = "Экспортировать закладки не удалось. Пожалуйста, повторите попытку.";
+
+/* Confirmation message that bookmarks have been exported to the file system */
+"bookmarks.export.files.success.message" = "Закладки экспортированы.";
+
+/* Confirmation message that bookmarks have been shared successfully to another app */
+"bookmarks.export.share.success.message" = "Закладки переданы.";
+
+/* Title of option to export HTML */
+"bookmarks.exportAction.title" = "Экспорт в файл HTML";
+
+/* Failure message when bookmarks failed to import */
+"bookmarks.import.failed.message" = "К сожалению, мы не можем импортировать данный файл.";
+
+/* Confirmation message that bookmarks have been imported */
+"bookmarks.import.success.message" = "Закладки импортированы.";
+
+/* Title of option to import HTML */
+"bookmarks.importAction.title" = "Импорт из файла HTML";
+
+/* Import bookmark file button text */
+"bookmarks.importExport.footer.button.title" = "Импортировать закладки из другого браузера";
+
+/* Title of prompt for users where they can choose to import or export an HTML file containing webpage bookmarks */
+"bookmarks.importExport.title" = "Импортировать файл HTML с закладками из другого браузера или экспортировать свои закладки.";
+
+/* Button to open report form */
+"broken.site.report.menu.title" = "Сообщить о проблеме на сайте";
+
+/* Acknowledge button */
+"broken.site.report.missing.description.alert.button" = "Понятно";
+
+/* It appears as an alert after user tries to send a report without submitting any details */
+"broken.site.report.missing.description.alert.description" = "Пожалуйста, опишите проблему, с которой вы столкнулись на сайте. Это поможет нам ее скорее устранить.";
+
+/* It appears as an alert after user tries to send a report without submitting any details */
+"broken.site.report.missing.description.alert.title" = "Описание обязательно";
+
+/* Message that appears after submitting report */
+"broken.site.report.success.toast" = "Ваш отчет поможет улучшить DuckDuckGo для всех.";
+
+/* No comment provided by engineer. */
+"Confirm" = "Подтвердить";
+
+/* Button to continue the onboarding process */
+"contextual.onboarding.addToDock.buttons.skip" = "Пропустить";
+
+/* Button on the last screen of the onboarding, it will dismiss the onboarding screen. */
+"contextual.onboarding.addToDock.buttons.startBrowsing" = "Начать просмотр";
+
+/* Button of the onboarding dialog. On click it shows a dialog with a tutorial video about how to add the DDG browser icon to the device dock. */
+"contextual.onboarding.addToDock.buttons.tutorial" = "Показать, как";
+
+/* Message of the last screen of the onboarding that promotes adding the DDG browser icon to the dock. */
+"contextual.onboarding.addToDock.promo.contextual.message" = "Напоминаю: просматривая сайты с моей помощью, вы обезвреживаете коварную рекламу.\n\nПоэтому закрепите мой значок в док-панели.";
+
+/* The message of the onboarding dialog popup that promotes adding the DDG browser icon to the dock. */
+"contextual.onboarding.addToDock.promo.intro.message" = "Я устроюсь в удобном месте на каждый день.";
+
+/* The title of the onboarding dialog popup that promotes adding the DDG browser icon to the dock. */
+"contextual.onboarding.addToDock.promo.title" = "Добавьте меня на док-панель!";
+
+/* The message of the onboarding dialog popup that explains how to add the DDG browser icon to the dock. */
+"contextual.onboarding.addToDock.tutorial.message" = "Найдите значок DuckDuckGo на главном экране. Нажмите и перетащите его на панель. Все готово!";
+
+/* The title of the onboarding dialog popup that explains how to add the DDG browser icon to the dock. */
+"contextual.onboarding.addToDock.tutorial.title" = "Добавить меня на док-панель очень просто.";
+
+/* Parameter is domain name (string) */
+"contextual.onboarding.browsing.one.tracker" = "Сайт *%1$@* пытался вести за вами слежку, но мы его заблокировали.\n\n☝️ Нажмите на щит, чтобы узнать подробности.";
+
+/* Button on the last screen of the onboarding, it will dismiss the onboarding screen. */
+"contextual.onboarding.final-screen.button" = "Дай пять!";
+
+/* Title of the last screen of the onboarding to the browser app */
+"contextual.onboarding.final-screen.title" = "Проще некуда!";
+
+/* During onboarding steps this button is shown and takes either to the next steps or closes the onboarding. */
+"contextual.onboarding.got-it.button" = "Понятно";
+
+/* Message of the last screen of the onboarding to the browser app. */
+"contextual.onboarding.highlights.final-screen.message" = "Бродить по сайтам с нами — значит подрезать крылья назойливой рекламе.";
+
+/* After the user performs their first search using the browser, this dialog explains the advantages of using DuckDuckGo */
+"contextual.onboarding.highlights.first-search-done.message" = "Это — DuckDuckGo Search. Надежно. Быстро. Меньше рекламы.";
+
+/* Message of a popover on the browser that invites the user to try a search explaining that their searches are private */
+"contextual.onboarding.highlights.try-a-search.message" = "Ваши поисковые запросы в DuckDuckGo всегда конфиденциальны.";
+
+/* Browser Search query for baby ducklings */
+"contextual.onboarding.highlights.try-search.surprise-me" = "утята";
+
+/* Title of a popover on the new tab page browser that invites the user to try a visiting a website */
+"contextual.onboarding.ntp.try-a-site.title" = "Попробуйте посетить сайт!";
+
+/* Title of a popover on the browser that invites the user to try a search */
+"contextual.onboarding.try-a-search.title" = "Ну что, приступим?\nПопробуйте ввести запрос!";
+
+/* Message of a popover on the browser that invites the user to try visiting a website to explain that we block trackers */
+"contextual.onboarding.try-a-site.message" = "Мы заблокируем трекеры и пресечем слежку.";
+
+/* Title of a popover on the browser that invites the user to try a visiting a website */
+"contextual.onboarding.try-a-site.title" = "А теперь попробуйте посетить сайт!";
+
+/* Message of a popover on the browser that invites the user to try visiting the browser Fire Button. Please leave the line break */
+"contextual.onboarding.try-fire-button.message" = "Кнопка Fire Button моментально стирает из браузера данные о посещении сайтов.\n\nУбедитесь сами! 🔥";
+
+/* Browser Search query for how to say duck in english */
+"contextual.onboarding.try-search.option1-English" = "Как сказать «утка» по-испански?";
+
+/* Browser Search query for how to say duck in english */
+"contextual.onboarding.try-search.option1international" = "Как сказать «утка» по-английски?";
+
+/* Search query for the cast of Mighty Ducks */
+"contextual.onboarding.try-search.option2-english" = "Кто играет главные роли в фильме «Могучие утята»?";
+
+/* Search query for the cast of Avatar */
+"contextual.onboarding.try-search.option2-international" = "актерский состав аватара";
+
+/* Title for a button that triggers an unknown search query for the user. */
+"contextual.onboarding.try-search.surprise-me-title" = "Удиви меня!";
+
+/* Fourth paragraph of the Control Center VPN Widget Education screen */
+"control.center.vpn.widget.education.paragraph" = "Чтобы добавить виджет, найдите в списке **DuckDuckGo** и выберите **Элемент управления VPN**.";
+
+/* First paragraph of the Control Center Widget Education screen */
+"control.center.widget.education.paragraph.1" = "Проведите пальцем вниз из правого верхнего угла экрана.";
+
+/* Second paragraph of the Control Center Widget Education screen */
+"control.center.widget.education.paragraph.2" = "Нажмите кнопку **+** в левом верхнем углу **Центра управления**";
+
+/* Third paragraph of the Control Center Widget Education screen */
+"control.center.widget.education.paragraph.3" = "Внизу экрана нажмите **Добавить элемент управления**.";
+
+/* Crash Report always send button title */
+"crash.report.dialog.always.send" = "Всегда отправлять отчеты о сбоях";
+
+/* Crash Report hide details button title */
+"crash.report.dialog.hide.details" = "Скрыть";
+
+/* Crash Report dialog message */
+"crash.report.dialog.message" = "Отчеты о сбоях помогают нам диагностировать проблемы и совершенствовать продукты. Они не содержат информации, по которой можно установить вашу личность.";
+
+/* Crash Report never send button title */
+"crash.report.dialog.never.send" = "Не отправлять";
+
+/* Crash Report show details button title */
+"crash.report.dialog.show.details" = "Что было отправлено";
+
+/* Crash Report dialog title */
+"crash.report.dialog.title" = "Автоматически отправлять отчеты о сбоях?";
+
+/* Title for a section containing only items from past month */
+"date.range.past-month" = "За последний месяц";
+
+/* Title for a section containing only items from past week */
+"date.range.past-week" = "За последнюю неделю";
+
+/* Title for a section containing only items from today */
+"date.range.today" = "Сегодня";
+
+/* Title for a section containing only items from yesterday */
+"date.range.yesterday" = "Вчера";
+
+/* No comment provided by engineer. */
+"dax.hide.button" = "Скрыть подсказки навсегда";
+
+/* No comment provided by engineer. */
+"dax.hide.cancel" = "Отменить";
+
+/* Subtitle in Hide Dax dialog */
+"dax.hide.message" = "Их немного, и мы постарались сделать их информативными.";
+
+/* Title in Hide Dax dialog */
+"dax.hide.title" = "Скрыть другие подсказки?";
+
+/* No comment provided by engineer. */
+"dax.onboarding.browsing.after.search" = "Ваши поисковые запросы в DuckDuckGo анонимны. Все и всегда. 🙌";
+
+/* No comment provided by engineer. */
+"dax.onboarding.browsing.after.search.cta" = "Уф!";
+
+/* No comment provided by engineer. */
+"dax.onboarding.browsing.multiple.trackers.cta" = "Дай пять!";
+
+/* Parameter is domain name (string) */
+"dax.onboarding.browsing.one.tracker" = "Сайт *%1$@* пытался вести за вами слежку.\n\nНо мы его заблокировали!\n\n☝️ Заходя на новый сайт, вы всегда можете проверить, шпионит ли он за вами: просто загляните в адресную строку.";
+
+/* No comment provided by engineer. */
+"dax.onboarding.browsing.one.tracker.cta" = "Дай пять!";
+
+/* First paramter is a string - network name, 2nd parameter is a string - domain name */
+"dax.onboarding.browsing.site.is.major.tracker" = "Внимание! Мы не можем скрыть вашу активность от %1$@ на %2$@.\n\nИспользуйте наш браузер, и мы сократим объем собираемой о вас информации, заблокировав трекеры %1$@ на других сайтах.";
+
+/* No comment provided by engineer. */
+"dax.onboarding.browsing.site.is.major.tracker.cta" = "Понятно";
+
+/* Parameters are domain names (strings) */
+"dax.onboarding.browsing.site.owned.by.major.tracker" = "Внимание! Так как %1$@ принадлежит сети %2$@, мы не можем скрыть вашу активность на этом ресурсе.\n\nИспользуйте наш браузер, и мы сократим объем собираемой о вас информации, заблокировав трекеры %2$@ на других сайтах.";
+
+/* Got It */
+"dax.onboarding.browsing.site.owned.by.major.tracker.cta" = "Понятно";
+
+/* No comment provided by engineer. */
+"dax.onboarding.browsing.without.trackers" = "Вы жмете на кнопки и листаете страницы — мы блокируем трекеры.\n\nПользуйтесь сайтами без страха!";
+
+/* No comment provided by engineer. */
+"dax.onboarding.browsing.without.trackers.cta" = "Понятно";
+
+/* Encourage user to try clearing data with the fire button */
+"dax.onboarding.fire.button" = "В браузере могут скапливаться личные данные. Фу! Пользуйтесь кнопкой «Огонь», чтобы сжечь весь лишний мусор. Попробуйте сами! 👇";
+
+/* Cancel action */
+"dax.onboarding.fire.button.cancelAction" = "Отменить";
+
+/* Encourage user to try clearing data with the fire button */
+"dax.onboarding.fire.button.confirmAction" = "Закрыть вкладки и удалить данные";
+
+/* Encourage user to add favorite site using the browsing menu. */
+"dax.onboarding.home.add.favorite" = "Посещайте любимые сайты в мгновение ока! \n\nЗайдите на сайт, который вам нравится. Затем нажмите значок «⋯» и выберите *Добавить в избранное*.";
+
+/* Accessible version of dax.onboarding.home.add.favorite */
+"dax.onboarding.home.add.favorite.accessible" = "Посещайте любимые сайты в мгновение ока! Посетите один из своих любимых сайтов. Затем нажмите кнопку меню и выберите «Добавить в избранное».";
+
+/* No comment provided by engineer. */
+"dax.onboarding.home.initial" = "А теперь попробуйте заглянуть на любимый сайт!\n\nМы заблокируем трекеры и пресечем слежку. И даже постараемся повысить безопасность соединения 🔒";
+
+/* ad = advertisment */
+"dax.onboarding.home.subsequent" = "Проще некуда!\n\nПросматривать сайтам с нами — значит навсегда попрощаться с назойливой рекламой 👍";
+
+/* No comment provided by engineer. */
+"Debug" = "Отладка";
+
+/* Default string used if users device is not iPhone or iPad */
+"device.type.default" = "устройстве";
+
+/* Device type is iPhone */
+"device.type.iphone" = "iPhone";
+
+/* Device type is iPad */
+"device.type.pad" = "iPad";
+
+/* GPC Setting state */
+"donotsell.disabled" = "Отключено";
+
+/* No comment provided by engineer. */
+"donotsell.disclaimer.learnmore" = "Узнать больше";
+
+/* GPC Setting state */
+"donotsell.enabled" = "Включено";
+
+/* No comment provided by engineer. */
+"donotsell.info.headertext" = "DuckDuckGo блокирует многие трекеры автоматически. Функция «Глобальный контроль конфиденциальности» (GPC) позволяет затребовать от участвующих в программе сайтов остановить передачу и продажу ваших личных данных другим компаниям.";
+
+/* Alert action for starting a file dowload */
+"downloads.alert.action.save-to-downloads" = "Сохранить в «Загрузки»";
+
+/* Cancel download action for downloads */
+"downloads.cancel-download.alert.cancel" = "Отменить";
+
+/* Message for alert when trying to cancel the file download */
+"downloads.cancel-download.alert.message" = "Вы точно хотите отменить эту загрузку?";
+
+/* Confirm action for alert when trying to cancel the file download */
+"downloads.cancel-download.alert.no" = "Нет";
+
+/* Title for alert when trying to cancel the file download */
+"downloads.cancel-download.alert.title" = "Отменить загрузку?";
+
+/* Confirm action for for alert when trying to cancel the file download */
+"downloads.cancel-download.alert.yes" = "Да";
+
+/* Button for deleting all items on downloads list */
+"downloads.downloads-list.delete-all" = "Удалить все";
+
+/* Empty downloads list placholder */
+"downloads.downloads-list.empty" = "Пока ничего не загружено";
+
+/* Label displaying file download progress. Both parameters are formatted data size measurements e.g. 5MB. First parameter is data size currently downloaded. Second parameter is total expected data size of the file. */
+"downloads.downloads-list.row.downloading" = "Загружается файл %1$@ из %2$@";
+
+/* Label displaying file download progress. The parameter is formatted data size measurements currently downloaded e.g. 5MB. */
+"downloads.downloads-list.row.downloadingUnknownTotalSize" = "Загружается %@";
+
+/* Downloads list screen title */
+"downloads.downloads-list.title" = "Загрузки";
+
+/* Additional alert message shown when there are active downloads when using the fire button */
+"downloads.fire-button.alert.message" = "Текущие загрузки также будут отменены";
+
+/* Message confirming that all files on the downloads list have been deleted */
+"downloads.message.all-files-deleted" = "Все файлы удалены";
+
+/* Message confirming that the download process has completed. Parameter is downloaded file's filename */
+"downloads.message.download-complete" = "Завершена загрузка файла %@";
+
+/* Message confirming the file was deleted. Parameter is file's filename */
+"downloads.message.download-deleted" = "Файл %@ удален";
+
+/* Message informing that the download has failed due to connection issues */
+"downloads.message.download-failed" = "Ошибка загрузки. Проверьте подключение к интернету.";
+
+/* Message confirming that the download process has started. Parameter is downloaded file's filename */
+"downloads.message.download-started" = "Началась загрузка файла %@";
+
+/* No comment provided by engineer. */
+"Duck Address" = "Duck Address";
+
+/* No comment provided by engineer. */
+"Duck Player" = "Duck Player";
+
+/* Title for message explaining to the user that Duck Player is not available */
+"duck-player.contingency-title" = "Duck Player недоступен";
+
+/* Button for the message explaining to the user that Duck Player is not available so the user can learn more */
+"duck-player.video-contingency-cta" = "Узнать больше";
+
+/* Message explaining to the user that Duck Player is not available */
+"duck-player.video-contingency-message" = "Работа проигрывателя Duck Player пострадала в результате недавних изменений на YouTube. Мы уже ищем решение и благодарим вас за понимание.";
+
+/* Ai Chat preferences explanation with a markdown link. Do not translate what's inside [] and () */
+"duckai.preferences.text.markdown" = "Duck.ai — дополнительная функция, позволяющая анонимно беседовать с популярными сторонними чат-моделями на базе искусственного интеллекта. Содержимое чатов не применяется для обучения ИИ.\n[Подробнее...](ddgquicklink://duckduckgo.com/duckduckgo-help-pages/aichat/)";
+
+/* Toggle text to enable/disable AI Chat in the address bar */
+"duckai.settings.enable.address-bar-searching-toggle" = "Показывать Duck.ai на странице поиска";
+
+/* Toggle text to enable/disable AI Chat in the browsing menu */
+"duckai.settings.enable.browsing-menu-toggle" = "Показывать Duck.ai в меню браузера";
+
+/* Settings screen cell text for AI Chat settings */
+"duckai.settings.title" = "Duck.ai";
+
+/* No comment provided by engineer. */
+"DuckDuckGo for iOS" = "DuckDuckGo для iOS";
+
+/* Text displayed when DuckPlayer is always enabled */
+"duckPlayer.alwaysEnabled.label" = "Всегда";
+
+/* Text displayed when DuckPlayer is in 'Ask' mode. */
+"duckPlayer.ask.label" = "Спрашивать каждый раз";
+
+/* Text displayed when DuckPlayer is in off. */
+"duckPlayer.never.label" = "Никогда";
+
+/* Body text for the modal feature explanation */
+"duckplayer.presentation.modal.body" = "Проигрыватель Duck Player позволяет смотреть видео из YouTube в браузере DuckDuckGo без целевой рекламы. Просмотренные ролики не влияют на рекомендации.";
+
+/* Button that will dismiss the modal */
+"duckplayer.presentation.modal.dismiss-button" = "Понятно";
+
+/* Two line title (separated by 
+) for the feature explanation */
+"duckplayer.presentation.modal.title" = "Шквал рекламы на YouTube? Попробуйте Duck Player!";
+
+/* Two line title (separated by 
+) for the feature explanation */
+"duckplayer.presentation.modal.title.youtube" = "Шквал рекламы на YouTube? Только не с Duck Player!";
+
+/* Footer label in the settings screen for Duck Player */
+"duckplayer.settings.footer" = "DuckDuckGo обеспечивает все основные функции для защиты конфиденциальности в интернете.";
+
+/* Text explaining what Duck Player is in the settings screen. */
+"duckplayer.settings.info-text" = "Проигрыватель Duck Player позволяет смотреть видео из YouTube в браузере DuckDuckGo без целевой рекламы. Просмотренные ролики не влияют на рекомендации.";
+
+/* Button that takes the user to learn more about Duck Player. */
+"duckplayer.settings.learn-more" = "Узнать больше";
+
+/* Settings screen cell text for DuckPlayer settings to open in new tab */
+"duckplayer.settings.open-new-tab-label" = "Открывать Duck Player в новой вкладке";
+
+/* Settings screen cell text for DuckPlayer settings */
+"duckplayer.settings.open-videos-in" = "Открывать видео из YouTube в Duck Player";
+
+/* Settings screen cell text for DuckPlayer settings */
+"duckplayer.settings.title" = "Проигрыватель Duck Player";
+
+/* Email protection service offered by DuckDuckGo */
+"email-protection" = "Защита электронной почты";
+
+/* Cancel option for the email alias alert */
+"email.aliasAlert.decline" = "Отменить";
+
+/* Option for generating a private email address */
+"email.aliasAlert.generatePrivateAddress" = "Создать адрес на Duck";
+
+/* Option for generating a private email address */
+"email.aliasAlert.prompt.generatePrivateAddress" = "Создать адрес на Duck";
+
+/* Subtitle for generating a private email address */
+"email.aliasAlert.prompt.generatePrivateAddress.subtitle" = "Скрывает ваш адрес и блокирует почтовые трекеры";
+
+/* Title for the email alias selection prompt */
+"email.aliasAlert.prompt.title" = "Выберите адрес электронной почты";
+
+/* Subtitle for choosing primary user email address */
+"email.aliasAlert.prompt.useUserAddress.subtitle" = "Для блокировки почтовых трекеров";
+
+/* Title for the email alias selection alert */
+"email.aliasAlert.title" = "Блокировать почтовые трекеры с адресом Duck";
+
+/* Parameter is an email address (string) */
+"email.aliasAlert.useUserAddress" = "Использовать %@";
+
+/* Title for the email copy browsing menu alert */
+"email.browsingMenu.alert" = "Новый адрес скопирован в буфер обмена";
+
+/* Email option title in the browsing menu */
+"email.browsingMenu.useNewDuckAddress" = "Создать адрес на Duck";
+
+/* Signed in state for the email feature */
+"email.settings.enabled" = "Включено";
+
+/* Footer text for the email feature */
+"email.settings.footer" = "Снятие почтовой защиты на данном устройстве лишит вас возможности вносить свой личный адрес на Duck или свежесгенерированный приватный адрес Duck в поле для электронной почты при посещении сайтов.<br/><br/>Если вы хотите полностью удалить свои адреса Duck, задать нам вопрос или отправить отзывы и предложения, пишите нам: support@duck.com.";
+
+/* Signed out state for the email feature */
+"email.settings.off" = "Выключено";
+
+/* Subtitle for the email settings cell */
+"email.settings.subtitle" = "Блокировка почтовых трекеров и скрытие адреса";
+
+/* Option to continue the Email Protection signup */
+"email.signup-prompt.alert.continue" = "Продолжить настройку";
+
+/* Option to exit the Email Protection signup */
+"email.signup-prompt.alert.exit" = "Выйти из настройки";
+
+/* Title for exiting the Email Protection signup early alert */
+"email.signup-prompt.alert.title" = "Если вы прервете настройку, ваш адрес Duck Address не сохранится!";
+
+/* Button title choosing not to sign up for email protection and not to be prompted again */
+"email.signup-prompt.do-not-signup-button.cta" = "Больше не показывать";
+
+/* Button title choosing to sign up for email protection */
+"email.signup-prompt.signup-button.cta" = "Защитить почту";
+
+/* Subtitle for prompt to sign up for email protection */
+"email.signup-prompt.subtitle" = "Создайте уникальный случайный адрес, который также удалит скрытые трекеры и перенаправит электронную почту на ваш ящик.";
+
+/* Title for prompt to sign up for email protection */
+"email.signup-prompt.title" = "Скрытие адреса почты\nи блокировка трекеров";
+
+/* Empty list state placholder */
+"empty.bookmarks" = "Закладок пока нет";
+
+/* Empty search placeholder on bookmarks search */
+"empty.search" = "Ничего не найдено";
+
+/* Button title to Sign In */
+"error.email-protection-sign-in.action" = "Войти";
+
+/* Alert message */
+"error.email-protection-sign-in.body" = "Чтобы включить функцию Email Protection, пожалуйста, выполните вход заново.";
+
+/* Alert title */
+"error.email-protection-sign-in.title" = "Ошибка функции Email Protection";
+
+/* Button title to open device settings */
+"error.insufficient-disk-space.action" = "Открыть Настройки";
+
+/* Alert message */
+"error.insufficient-disk-space.body" = "Кажется, на вашем устройстве закончилась внутренняя память. Освободите место, прежде чем продолжить.";
+
+/* Alert title */
+"error.insufficient-disk-space.title" = "Недостаточно места";
+
+/* Button title that is shutting down the app */
+"error.preemptive-crash.action" = "Закрыть приложение";
+
+/* Alert message */
+"error.preemptive-crash.body" = "В приложении возникла ошибка, и его нужно закрыть. Для продолжения работы откройте его снова.";
+
+/* Alert title */
+"error.preemptive-crash.title" = "Ошибка в приложении";
+
+/* Generic error message on a dialog for when the cause is not known. */
+"error.unknown.try.again" = "Произошла неизвестная ошибка";
+
+/* No comment provided by engineer. */
+"favorite" = "Избранное";
+
+/* No comment provided by engineer. */
+"favorite.menu.edit" = "Редактировать";
+
+/* No comment provided by engineer. */
+"favorite.menu.remove" = "Удалить";
+
+/* Display Mode for favorites */
+"favorites.settings.all-devices" = "Избранное со всех устройств";
+
+/* Footer of the favorites settings table */
+"favorites.settings.footer" = "Выберите, какие избранные объекты показывать в новой вкладке (в зависимости от места их нахождения).";
+
+/* Header of the favorites settings table */
+"favorites.settings.header" = "Настройки отображения";
+
+/* Display Mode for favorites */
+"favorites.settings.mobile-only" = "Только избранное с телефона";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.ads" = "Блокировка рекламы и всплывающих окон";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.bookmarks" = "Создание закладок/управление закладками";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.caption" = "Какую функцию браузера мы могли бы добавить или улучшить?";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.description" = "Проблемы с функциями браузера";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.entry" = "Функции браузера отсутствуют или плохо работают";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.images" = "Работа с изображениями";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.navigation" = "Переход вперед и назад и/или обновление страницы";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.other" = "Ничего из перечисленного";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.tabs" = "Создание вкладок/управление вкладками";
+
+/* No comment provided by engineer. */
+"feedback.browserFeatures.videos" = "Просмотр видео";
+
+/* No comment provided by engineer. */
+"feedback.customization.bookmarks" = "Формат отображения закладок";
+
+/* No comment provided by engineer. */
+"feedback.customization.caption" = "Какие элементы настройки мы могли бы добавить или улучшить?";
+
+/* No comment provided by engineer. */
+"feedback.customization.description" = "Проблемы с пользовательской настройкой";
+
+/* No comment provided by engineer. */
+"feedback.customization.entry" = "Мало вариантов настройки на свой вкус";
+
+/* No comment provided by engineer. */
+"feedback.customization.homeScreen" = "Конфигурация главного экрана";
+
+/* No comment provided by engineer. */
+"feedback.customization.other" = "Ничего из перечисленного";
+
+/* No comment provided by engineer. */
+"feedback.customization.tabs" = "Формат отображения вкладок";
+
+/* No comment provided by engineer. */
+"feedback.customization.ui" = "Интерфейс приложения";
+
+/* No comment provided by engineer. */
+"feedback.customization.whatIsCleared" = "Тип данных, подлежащих сбросу";
+
+/* No comment provided by engineer. */
+"feedback.customization.whenIsCleared" = "Время сброса данных";
+
+/* No comment provided by engineer. */
+"feedback.ddgSearch.autocomplete" = "Улучшение автозаполнения";
+
+/* No comment provided by engineer. */
+"feedback.ddgSearch.caption" = "Какую функцию поиска мы могли бы добавить или улучшить?";
+
+/* No comment provided by engineer. */
+"feedback.ddgSearch.description" = "Проблемы с поиском DuckDuckGo";
+
+/* No comment provided by engineer. */
+"feedback.ddgSearch.entry" = "Не устраивает поиск в DuckDuckGo";
+
+/* No comment provided by engineer. */
+"feedback.ddgSearch.languageOrRegion" = "Поиск по определённому языку или региону";
+
+/* No comment provided by engineer. */
+"feedback.ddgSearch.layout" = "Оформление должно быть больше похоже на поиск Google";
+
+/* No comment provided by engineer. */
+"feedback.ddgSearch.loadTime" = "Ускорение загрузки";
+
+/* No comment provided by engineer. */
+"feedback.ddgSearch.other" = "Ничего из перечисленного";
+
+/* No comment provided by engineer. */
+"feedback.ddgSearch.technical" = "Программирование/технический поиск";
+
+/* No comment provided by engineer. */
+"feedback.form.caption" = "Что мы можем улучшить?";
+
+/* Confirmation button */
+"feedback.form.submit" = "Отправить";
+
+/* Title of the feedback form */
+"feedback.form.title" = "Помогите нам улучшить Privacy Pro";
+
+/* Category for Identity Theft Restoration feedback */
+"feedback.general.category.itr" = "Identity Theft Restoration";
+
+/* Category for Personal Info Removal feedback */
+"feedback.general.category.pir" = "Удаление личной информации";
+
+/* Category for subscription and payments feedback */
+"feedback.general.category.ppro" = "Подписки и платежи";
+
+/* Prompt to select a category for general feedback */
+"feedback.general.category.select" = "ВЫБЕРИТЕ КАТЕГОРИЮ";
+
+/* Category for VPN feedback */
+"feedback.general.category.vpn" = "VPN";
+
+/* Category for access code issues */
+"feedback.itr.category.access-code" = "Проблема с кодом доступа";
+
+/* Category for issues contacting an advisor */
+"feedback.itr.category.cant-contact-advisor" = "Невозможно связаться с консультантом";
+
+/* Prompt to select a category for Identity Theft Restoration feedback */
+"feedback.itr.category.select" = "ВЫБЕРИТЕ КАТЕГОРИЮ";
+
+/* Category for other Identity Theft Restoration issues */
+"feedback.itr.category.something-else" = "Что-то другое";
+
+/* Category for unhelpful advisor calls */
+"feedback.itr.category.unhelpful" = "Мало толку от звонка консультанту";
+
+/* No comment provided by engineer. */
+"feedback.negative.form.genericPlaceholder" = "Опишите максимально подробно";
+
+/* No comment provided by engineer. */
+"feedback.negative.form.placeholder" = "Хотите добавить что-то конкретное?";
+
+/* No comment provided by engineer. */
+"feedback.negative.header" = "Очень жаль";
+
+/* No comment provided by engineer. */
+"feedback.negative.supplementary" = "Что именно вам не понравилось?";
+
+/* No comment provided by engineer. */
+"feedback.other.description" = "Другие проблемы";
+
+/* No comment provided by engineer. */
+"feedback.other.entry" = "Ничего из перечисленного";
+
+/* No comment provided by engineer. */
+"feedback.performance.caption" = "Какие проблемы у вас возникают?";
+
+/* No comment provided by engineer. */
+"feedback.performance.crashes" = "Приложение вылетает или зависает";
+
+/* No comment provided by engineer. */
+"feedback.performance.description" = "Проблемы с производительностью";
+
+/* No comment provided by engineer. */
+"feedback.performance.entry" = "Приложение работает слишком медленно, часто возникают ошибки или сбои";
+
+/* No comment provided by engineer. */
+"feedback.performance.other" = "Ничего из перечисленного";
+
+/* No comment provided by engineer. */
+"feedback.performance.playback" = "Видео или медиа воспроизводится с ошибками";
+
+/* No comment provided by engineer. */
+"feedback.performance.slowLoading" = "Медленно загружаются страницы или результаты поиска";
+
+/* Category for when scan finds incorrect records */
+"feedback.pir.category.not-me" = "Найденная информация принадлежит не мне";
+
+/* Category for when scan doesn't find info on a specific site */
+"feedback.pir.category.nothing-on-site" = "Поиск не обнаружил мои данные на конкретном сайте";
+
+/* Category for other Personal Info Removal issues */
+"feedback.pir.category.other" = "Что-то другое";
+
+/* Category for when the removal process is stuck */
+"feedback.pir.category.removal-stuck" = "Процесс удаления застопорился";
+
+/* Category for when the scan is stuck */
+"feedback.pir.category.scan-stuck" = "Поиск данных застопорился";
+
+/* Prompt to select a category for Personal Info Removal feedback */
+"feedback.pir.category.select" = "ВЫБЕРИТЕ КАТЕГОРИЮ";
+
+/* Header above input field */
+"feedback.positive.form.header" = "Добавить комментарий";
+
+/* No comment provided by engineer. */
+"feedback.positive.form.placeholder" = "Что вам больше всего понравилось?";
+
+/* No comment provided by engineer. */
+"feedback.positive.form.supplementary" = "Хотите добавить комментарий для нашей команды разработчиков?";
+
+/* No comment provided by engineer. */
+"feedback.positive.header" = "Приятно слышать!";
+
+/* No comment provided by engineer. */
+"feedback.positive.noThanks" = "Нет, спасибо. У меня пока всё";
+
+/* Button encouraging uses to share details aboout their feedback */
+"feedback.positive.submit" = "Добавить комментарий";
+
+/* Category for other Privacy Pro issues */
+"feedback.ppro.category.other" = "Что-то другое";
+
+/* Category for one-time password issues */
+"feedback.ppro.category.otp" = "Проблема с одноразовым паролем";
+
+/* Prompt to select a category for Privacy Pro feedback */
+"feedback.ppro.category.select" = "ВЫБЕРИТЕ КАТЕГОРИЮ";
+
+/* No comment provided by engineer. */
+"feedback.start.footer" = "Ваш отзыв важен для нас. Он полностью анонимный.";
+
+/* No comment provided by engineer. */
+"feedback.start.header" = "Итак, начнем!";
+
+/* No comment provided by engineer. */
+"feedback.start.supplementary" = "К какой категории вы бы отнесли свой отзыв?";
+
+/* No comment provided by engineer. */
+"feedback.submitted.confirmation" = "Спасибо! Ваш отзыв отправлен.";
+
+/* No comment provided by engineer. */
+"feedback.websiteLoading.description" = "Проблемы с загрузкой сайтов";
+
+/* No comment provided by engineer. */
+"feedback.websiteLoading.entry" = "Некоторые сайты загружаются с ошибками";
+
+/* No comment provided by engineer. */
+"feedback.websiteLoading.form.placeholder" = "С какими видами содержимого возникли проблемы?";
+
+/* No comment provided by engineer. */
+"feedback.websiteLoading.form.supplementary" = "Где возникают эти проблемы?";
+
+/* No comment provided by engineer. */
+"feedback.websiteLoading.form.urlPlaceholder" = "На каком сайте возникли проблемы?";
+
+/* Used to indicate number of entries found and position of the currently viewed one: e.g. 1 of 10 */
+"findinpage.count" = "%1$d из %2$d";
+
+/* No comment provided by engineer. */
+"findinpage.title" = "Найти на странице";
+
+/* No comment provided by engineer. */
+"fireButtonAnimation.airstream.name" = "Воздушный поток";
+
+/* No comment provided by engineer. */
+"fireButtonAnimation.fireRising.name" = "Инферно";
+
+/* No comment provided by engineer. */
+"fireButtonAnimation.none.name" = "Без анимации";
+
+/* No comment provided by engineer. */
+"fireButtonAnimation.waterSwirl.name" = "Водоворот";
+
+/* Description text above the Share Link button */
+"get.browser.on-your-desktop-go-to" = "На компьютере откройте ссылку:";
+
+/* Title for the Share Download Link button */
+"get.browser.share-link" = "Поделиться ссылкой для загрузки";
+
+/* Message displayed in the share action when sharing via email */
+"get.browser.share-link.message" = "Браузер DuckDuckGo для настольных компьютеров обеспечивает  конфиденциальный поиск и блокировку трекеров. Для загрузки перейдите по ссылке.";
+
+/* Title displayed in the share action */
+"get.browser.share-link.title" = "Браузер DuckDuckGo для Mac и Windows";
+
+/* Title for the get desktop browser feature */
+"get.browser.title" = "DuckDuckGo для Mac и Windows";
+
+/* No comment provided by engineer. */
+"home.row.onboarding.header" = "Добавьте DuckDuckGo на домашний экран!";
+
+/* No comment provided by engineer. */
+"home.row.reminder.message" = "Добавьте DuckDuckGo на док-панель для быстрого доступа!";
+
+/* Home is this context is the bottom home row (dock) */
+"home.row.reminder.title" = "DuckDuckGo всегда под рукой";
+
+/* This describes empty tab */
+"homeTab.searchAndFavorites" = "Введите поисковый запрос или адрес сайта";
+
+/* Home tab title */
+"homeTab.title" = "Домашняя";
+
+/* No comment provided by engineer. */
+"ID: %@ | %@ | %@" = "Код: %1$@ | %2$@ | %3$@";
+
+/* Message that comes up when trying to enable the VPN from intents, asking the user to enable it from the app so it's configured */
+"intent.vpn.needs.to.be.enabled.from.app" = "Включите VPN в приложении DuckDuckGo.";
+
+/* OK title for invite screen alert dismissal button */
+"invite.alert.ok.button" = "OK";
+
+/* Continue button on an invite dialog */
+"invite.dialog.continue.button" = "Continue";
+
+/* Get Started button on an invite dialog */
+"invite.dialog.get.started.button" = "Get Started";
+
+/* Message to show after user enters an unrecognized invite code */
+"invite.dialog.unrecognized.code.message" = "We didn’t recognize this Invite Code.";
+
+/* No comment provided by engineer. */
+"keyCommandAddBookmark" = "Добавить закладку";
+
+/* No comment provided by engineer. */
+"keyCommandAddFavorite" = "Добавить в избранное";
+
+/* No comment provided by engineer. */
+"keyCommandBrowserBack" = "Назад";
+
+/* No comment provided by engineer. */
+"keyCommandBrowserForward" = "Вперед";
+
+/* No comment provided by engineer. */
+"keyCommandClose" = "Закрыть";
+
+/* No comment provided by engineer. */
+"keyCommandCloseTab" = "Закрыть вкладку";
+
+/* No comment provided by engineer. */
+"keyCommandFind" = "Найти на странице";
+
+/* No comment provided by engineer. */
+"keyCommandFindNext" = "Найти следующий";
+
+/* No comment provided by engineer. */
+"keyCommandFindPrevious" = "Найти предыдущий";
+
+/* No comment provided by engineer. */
+"keyCommandFire" = "Сбросить все вкладки и данные";
+
+/* No comment provided by engineer. */
+"keyCommandLocation" = "Введите поисковый запрос или адрес сайта";
+
+/* No comment provided by engineer. */
+"keyCommandNewTab" = "Новая вкладка";
+
+/* No comment provided by engineer. */
+"keyCommandNextTab" = "Следующая вкладка";
+
+/* No comment provided by engineer. */
+"keyCommandOpenInNewBackgroundTab" = "Открыть ссылку в фоновом режиме";
+
+/* No comment provided by engineer. */
+"keyCommandOpenInNewTab" = "Открыть ссылку в новой вкладке";
+
+/* No comment provided by engineer. */
+"keyCommandPreviousTab" = "Предыдущая вкладка";
+
+/* No comment provided by engineer. */
+"keyCommandPrint" = "Распечатать";
+
+/* No comment provided by engineer. */
+"keyCommandReload" = "Перезагрузить";
+
+/* No comment provided by engineer. */
+"keyCommandSelect" = "Выбрать";
+
+/* No comment provided by engineer. */
+"keyCommandShowAllTabs" = "Показать все вкладки";
+
+/* Summary text for the macOS browser waitlist */
+"mac-browser.waitlist.summary" = "Приложение DuckDuckGo для Mac — это высокая скорость, функциональность и беспрецедентная конфиденциальность.";
+
+/* Title for the macOS waitlist notification */
+"mac-waitlist.available.notification.title" = "Приложение DuckDuckGo для Mac готово!";
+
+/* Title for the copy action */
+"mac-waitlist.copy" = "Копировать";
+
+/* Description text above the Share Link button */
+"mac-waitlist.join-waitlist-screen.on-your-computer-go-to" = "Перейдите на компьютере Windows по ссылке:";
+
+/* Description text above the Share Link button */
+"mac-waitlist.join-waitlist-screen.on-your-mac-go-to" = "Перейдите на компьютере Mac по ссылке:";
+
+/* Title for the Share Link button */
+"mac-waitlist.join-waitlist-screen.share-link" = "Поделиться ссылкой";
+
+/* Title for the Join Waitlist screen */
+"mac-waitlist.join-waitlist-screen.try-duckduckgo-for-mac" = "DuckDuckGo для Mac!";
+
+/* Title for the macOS waitlist button redirecting to Windows waitlist */
+"mac-waitlist.join-waitlist-screen.windows-waitlist" = "Ищете версию для Windows?";
+
+/* Title for the settings subtitle */
+"mac-waitlist.settings.browse-privately" = "Полная конфиденциальность в Интернете, благодаря нашему приложению для Mac";
+
+/* Message used when sharing to iMessage */
+"mac-waitlist.share-sheet.message" = "Конфиденциальность в Интернете на Mac? Не проблема!\n\nЗагрузите наше приложение по ссылке:\nhttps://duckduckgo.com/mac";
+
+/* Title for the share sheet entry */
+"mac-waitlist.share-sheet.title" = "DuckDuckGo для Mac";
+
+/* Title for the Mac Waitlist feature */
+"mac-waitlist.title" = "Приложение DuckDuckGo для Mac";
+
+/* Button that redirect the user to a web page explaining what Malicious Site Protection is */
+"malicious-site-protection.settings.footer.button.learn-more" = "Узнать больше";
+
+/* Footer text for Malicious Site Protection settings warning the user about the risks of disabling the feature */
+"malicious-site-protection.settings.footer.message" = "При отключении этой функции ваши личные данные могут оказаться под угрозой.";
+
+/* Header text for Malicious Site Protection settings */
+"malicious-site-protection.settings.header" = "Предупреждения о безопасности на сайте";
+
+/* Text explaining what happens when Malicious Site Protection is enabled */
+"malicious-site-protection.settings.toggle.message" = "Предупреждать о вредоносных и фишинговых сайтах";
+
+/* No comment provided by engineer. */
+"menu.button.hint" = "Меню браузера";
+
+/* No comment provided by engineer. */
+"Message policy hostname" = "Имя хоста политики сообщений";
+
+/* Title for back button in navigation bar */
+"navbar.back-button.title" = "Назад";
+
+/* Title for next button in navigation bar to progress forward */
+"navbar.next-button.title" = "Далее";
+
+/* Finish editing bookmarks button */
+"navigation.title.done" = "Готово";
+
+/* Edit button */
+"navigation.title.edit" = "Редактировать";
+
+/* String indicating NetP is snoozing when viewed from the settings screen */
+"netP.cell.snoozing" = "Отложено";
+
+/* Title for the DuckDuckGo VPN feature */
+"netP.title" = "DuckDuckGo VPN";
+
+/* Button title for tooltip about adding VPN widget */
+"network.protection.addwidget.tip.action" = "Добавить виджет";
+
+/* Message for tooltip about adding VPN widget */
+"network.protection.addwidget.tip.message" = "Включать и выключать VPN можно прямо с домашнего экрана.";
+
+/* Title for tooltip about adding VPN widget */
+"network.protection.addwidget.tip.title" = "Специальный VPN-виджет";
+
+/* The body of the notification when Privacy Pro subscription expired */
+"network.protection.entitlement.expired.notification.body" = "VPN отключен ввиду окончания подписки. Чтобы вновь подключиться к DuckDuckGo VPN, оформите подписку Privacy Pro.";
+
+/* The body of the notification shown when VPN fails to reconnect */
+"network.protection.failure.notification.body" = "Подключиться к DuckDuckGo VPN не удалось. Повторите попытку позже.";
+
+/* Title for the VPN FAQ screen. */
+"network.protection.faq.title" = "Часто задаваемые вопросы по DuckDuckGo VPN";
+
+/* Message for tooltip about geoswitching */
+"network.protection.geoswitching.tip.message" = "Чтобы изменить свою VPN-геопозицию, достаточно подключиться к одному из наших серверов, расположенных по всему миру.";
+
+/* Title for tooltip about geoswitching */
+"network.protection.geoswitching.tip.title" = "Выбор геопозиции";
+
+/* The body of the notification shown when VPN connection is interrupted */
+"network.protection.interrupted.notification.body" = "Работа DuckDuckGo VPN была прервана. Выполняется попытка повторного подключения...";
+
+/* Message for the network protection invite dialog */
+"network.protection.invite.dialog.message" = "Для начала введите пригласительный код.";
+
+/* Title for the network protection invite screen */
+"network.protection.invite.dialog.title" = "Приглашаем вас оценить сервис DuckDuckGo VPN";
+
+/* Prompt for the network protection invite code text field */
+"network.protection.invite.field.prompt" = "Код приглашения";
+
+/* Message for the network protection invite success view */
+"network.protection.invite.success.message" = "Скройте свое местоположение от сайтов и список посещаемых адресов — от интернет-провайдеров и других пользователей в своей сети.";
+
+/* Title for the network protection invite success view */
+"network.protection.invite.success.title" = "Готово. Добро пожаловать!";
+
+/* The title of the notifications shown from VPN */
+"network.protection.notification.title" = "DuckDuckGo";
+
+/* Title text for an iOS quick action that opens VPN settings */
+"network.protection.quick-action.open-vpn" = "Открыть настройки VPN";
+
+/* Button title for tooltip about VPN snooze mode */
+"network.protection.snooze.tip.action" = "Подробнее";
+
+/* Message for tooltip about VPN snooze mode */
+"network.protection.snooze.tip.message" = "VPN-соединение можно приостановить для посещения сайтов и приложений, которые блокируют трафик по VPN.";
+
+/* Title for tooltip about VPN snooze mode */
+"network.protection.snooze.tip.title" = "Без проблем из-за VPN";
+
+/* The body of the notification when the VPN is snoozed, with a duration string as parameter (e.g, 30 minutes) */
+"network.protection.snoozed.notification.body" = "Работа VPN отложена на %@";
+
+/* The label for when NetP VPN is connected plus the length of time connected as a formatter HH:MM:SS string */
+"network.protection.status.connected.format" = "Подключен · %@";
+
+/* The label for the NetP VPN when connecting */
+"network.protection.status.connecting" = "Выполняется подключение...";
+
+/* The label for the NetP VPN when disconnected */
+"network.protection.status.disconnected" = "Не подключен";
+
+/* The label for the NetP VPN when disconnecting */
+"network.protection.status.disconnecting" = "Отключение...";
+
+/* Message label text for the status view when VPN is disconnected */
+"network.protection.status.header.message.off" = "Выполните подключение для защиты\nтрафика всех устройств.";
+
+/* Message label text for the status view when VPN is disconnected */
+"network.protection.status.header.message.on" = "Трафик всех устройств \nзащищен по VPN.";
+
+/* Header title label text for the status view when VPN is disconnected */
+"network.protection.status.header.title.off" = "DuckDuckGo VPN отключен";
+
+/* Header title label text for the status view when VPN is connected */
+"network.protection.status.header.title.on" = "DuckDuckGo VPN включен";
+
+/* Header title label text for the status view when VPN is snoozing */
+"network.protection.status.header.title.snoozed" = "Работа DuckDuckGo VPN отложена";
+
+/* The status view 'Share Feedback' button which is shown inline on the status view after the temporary free use footer text */
+"network.protection.status.menu.share.feedback" = "Оставьте нам отзыв";
+
+/* The label for the NetP VPN when paused */
+"network.protection.status.paused" = "На паузе";
+
+/* The label for when NetP VPN is snoozing plus the length of time remaining formatted as '0:00' */
+"network.protection.status.snoozing.format" = "Работа отложена, осталось %@";
+
+/* Snooze button title shown in NetworkProtection's status view. */
+"network.protection.status.view.action.snooze" = "Отложить на 20 минут";
+
+/* Wake Up button title shown in NetworkProtection's status view. */
+"network.protection.status.view.action.wake-up" = "Разбудить";
+
+/* Connection details label shown in NetworkProtection's status view. */
+"network.protection.status.view.connection.details" = "О подключении";
+
+/* Custom DNS label shown in NetworkProtection's status view. */
+"network.protection.status.view.custom.dns" = "DNS-сервер";
+
+/* Generic connection failed error message shown in NetworkProtection's status view. */
+"network.protection.status.view.error.connection.failed.message" = "Повторите попытку позже.";
+
+/* Generic connection failed error title shown in NetworkProtection's status view. */
+"network.protection.status.view.error.connection.failed.title" = "Подключиться не удалось.";
+
+/* IP Address label shown in NetworkProtection's status view. */
+"network.protection.status.view.ip.address" = "IP-адрес";
+
+/* Location label shown in NetworkProtection's status view. */
+"network.protection.status.view.location" = "Геопозиция";
+
+/* Label shown on the title of the settings section in NetworkProtection's status view. */
+"network.protection.status.view.settings.section.title" = "Настроить";
+
+/* Title label text for the status view when netP is disconnected */
+"network.protection.status.view.title" = "VPN";
+
+/* The body of the notification shown when VPN reconnects successfully */
+"network.protection.success.notification.body" = "DuckDuckGo VPN включен. Ваши геопозиция и онлайн-активность скрыты от посторонних глаз.";
+
+/* The body of the notification shown when VPN connects successfully with the city + state/country as formatted parameter */
+"network.protection.success.notification.subtitle.including.serverLocation" = "Трафик устройства направляется через: %@";
+
+/* The body of the notification shown when VPN connects successfully with the city + state/country as formatted parameter */
+"network.protection.success.notification.subtitle.snooze.ended.including.serverLocation" = "VPN вышел из отложенного режима. Трафик устройства направляется через: %@.";
+
+/* Title for the button to link to the iOS app settings and enable notifications app-wide. */
+"network.protection.turn.on.notifications.button.title" = "Включить уведомления";
+
+/* Footer text under the button to link to the iOS app settings and enable notifications app-wide. */
+"network.protection.turn.on.notifications.section.footer" = "Разрешить DuckDuckGo уведомлять вас о разрыве соединения или изменении состояния VPN.";
+
+/* Title of the About section in the VPN status screen */
+"network.protection.vpn.about" = "О нас";
+
+/* Section header for the toggle for VPN notifications. */
+"network.protection.vpn.alerts.section.header" = "Уведомления";
+
+/* List section footer for the toggle for VPN alerts. */
+"network.protection.vpn.alerts.toggle.section.footer" = "DuckDuckGo оповестит вас о разрыве соединения или изменении состояния VPN.";
+
+/* Title for the toggle for VPN notifications. */
+"network.protection.vpn.alerts.toggle.title" = "Уведомления о VPN";
+
+/* Title for the data volume section in the VPN status screen */
+"network.protection.vpn.data-volume" = "Объем трафика";
+
+/* Footer text for the Exclude Local Networks setting item. */
+"network.protection.vpn.exclude.local.networks.setting.footer" = "Настройте локальный трафик так, чтобы он поступал в обход VPN на устройства локальной сети, например, на принтер.";
+
+/* Header text for the Exclude Local Networks setting item. */
+"network.protection.vpn.exclude.local.networks.setting.header" = "Основные";
+
+/* Title for the Exclude Local Networks setting item. */
+"network.protection.vpn.exclude.local.networks.setting.title" = "Исключить локальные сети";
+
+/* Title for the VPN Location screen's All Countries section. */
+"network.protection.vpn.location.all.countries.section.title" = "Все страны";
+
+/* Description of the location type in the VPN status screen */
+"network.protection.vpn.location.connected" = "Место подключения";
+
+/* Subtitle of countries item when there are multiple cities, example : */
+"network.protection.vpn.location.country.item.formatted.cities.count" = "Городов: %d";
+
+/* Description of the location type in the VPN status screen */
+"network.protection.vpn.location.nearest" = "(Ближайшее)";
+
+/* Footer describing the VPN Location screen's Recommended section which just has Nearest Available. */
+"network.protection.vpn.location.recommended.section.footer" = "Автоматически подключаться к ближайшему найденному серверу.";
+
+/* Title for the VPN Location screen's Recommended section. */
+"network.protection.vpn.location.recommended.section.title" = "Рекомендуем";
+
+/* Description of the location type in the VPN status screen */
+"network.protection.vpn.location.selected" = "Выбранное место";
+
+/* Subtitle for the preferred location item that formats a city and country. E.g Chicago, United States */
+"network.protection.vpn.location.subtitle.formatted.city.and.country" = "%1$@, %2$@";
+
+/* Title for the VPN Location screen. */
+"network.protection.vpn.location.title" = "Местоположение VPN";
+
+/* Title for the VPN Notifications management screen. */
+"network.protection.vpn.notifications.title" = "Уведомления о VPN";
+
+/* Label for the Preferred Location VPN Settings item when the nearest available location is selected. */
+"network.protection.vpn.preferred.location.nearest" = "Ближайшее место";
+
+/* Title for the Preferred Location VPN Settings item. */
+"network.protection.vpn.preferred.location.title" = "Предпочитаемое местоположение";
+
+/* Footer text for the DNS server setting item. */
+"network.protection.vpn.secure.dns.setting.footer" = "DuckDuckGo направляет DNS-запросы через собственные DNS-серверы, поэтому ваш интернет-провайдер не увидит, какие сайты вы посещаете.";
+
+/* Title for the FAQ row in the VPN status screen. */
+"network.protection.vpn.settings.faq" = "ЧаВо и поддержка";
+
+/* Title for the feedback row in the VPN status screen. */
+"network.protection.vpn.settings.share-feedback" = "Отзыв о VPN-сервисе";
+
+/* Title for the VPN Settings screen. */
+"network.protection.vpn.settings.title" = "Настройки VPN";
+
+/* Section header for the shortcuts section in VPN settings. */
+"network.protection.vpn.shortcuts.section.header" = "Ярлыки";
+
+/* Information message about New Tab Page redesign */
+"new.tab.page.intro.message.body" = "К вашим услугам настройки «Избранного» и важнейших функций. Для поддержания порядка отдельные элементы можно переупорядочить или скрыть.";
+
+/* Title of information message about New Tab Page redesign */
+"new.tab.page.intro.message.title" = "Ваша страница новой вкладки... В новом виде!";
+
+/* Name of favorites section setting */
+"new.tab.page.settings.section.name.favorites" = "Избранное";
+
+/* Name of shortcuts section setting */
+"new.tab.page.settings.section.name.shortcuts" = "Ярлыки";
+
+/* Footer of the group allowing for setting up new tab page sections */
+"new.tab.page.settings.sections.description" = "Показать, скрыть или изменить порядок разделов на странице новой вкладки";
+
+/* Header title of the group allowing for setting up new tab page sections */
+"new.tab.page.settings.sections.header.title" = "РАЗДЕЛЫ";
+
+/* Header title of the shortcuts in New Tab Page preferences. */
+"new.tab.page.settings.shortcuts.header.title" = "Ярлыки";
+
+/* Title of New Tab Page preferences page. */
+"new.tab.page.settings.title" = "Страница новой вкладки";
+
+/* Shortcut title leading to AI Chat */
+"new.tab.page.shortcut.ai.chat" = "Чат с ИИ";
+
+/* Shortcut title leading to Bookmarks */
+"new.tab.page.shortcut.bookmarks" = "Закладки";
+
+/* Shortcut title leading to Downloads */
+"new.tab.page.shortcut.downloads" = "Загрузки";
+
+/* Shortcut title leading to Passwords */
+"new.tab.page.shortcut.passwords" = "Пароли";
+
+/* Shortcut title leading to app settings */
+"new.tab.page.shortcut.settings" = "Настройки";
+
+/* Text shown on the favorites info tooltip */
+"new.tab.page.tooltip.body" = "Чтобы добавить сайт к странице новой вкладки, откройте меню ••• и выберите пункт **Добавить в избранное**.";
+
+/* Text displayed on notification appearing in the address bar when the browser  dismissed the cookie popup automatically rejecting it */
+"omnibar.notification.cookies-managed" = "Kуки-файлы выбраны";
+
+/* Text displayed on notification appearing in the address bar when the browser  hides a cookie popup */
+"omnibar.notification.popup-hidden" = "Всплывающее окно скрыто";
+
+/* Button on the Add to Dock tutorial screen of the onboarding, it will proceed to the next step of the onboarding. */
+"onboarding.addToDock.buttons.gotIt" = "Понятно";
+
+/* Button to change the default browser */
+"onboarding.browsers.cta" = "Выбрать браузер";
+
+/* Message to highlight browser capability of private searches */
+"onboarding.browsers.features.privateSearch.title" = "Конфиденциальный поиск по умолчанию";
+
+/* The message of the option to set the address bar to the bottom. */
+"onboarding.highlights.addressBarPosition.bottom.message" = "Легко использовать";
+
+/* The title of the option to set the address bar to the bottom. */
+"onboarding.highlights.addressBarPosition.bottom.title" = "Внизу";
+
+/* The title of the CTA to progress to the next onboarding screen. */
+"onboarding.highlights.addressBarPosition.cta" = "Далее";
+
+/* Indicates what address bar option (Top/Bottom) is the default one. E.g. Top (Default) */
+"onboarding.highlights.addressBarPosition.default" = "(по умолчанию)";
+
+/* The title of the onboarding dialog popup to select the preferred address bar position. */
+"onboarding.highlights.addressBarPosition.title" = "Где следует разместить адресную строку?";
+
+/* The message of the option to set the address bar to the top. */
+"onboarding.highlights.addressBarPosition.top.message" = "Легко заметить";
+
+/* The title of the option to set the address bar to the top. */
+"onboarding.highlights.addressBarPosition.top.title" = "Вверх";
+
+/* The title of the CTA to progress to the next onboarding screen. */
+"onboarding.highlights.appIconSelection.cta" = "Далее";
+
+/* The subheader of the onboarding dialog popup to select the preferred App icon. */
+"onboarding.highlights.appIconSelection.message" = "Выберите иконку приложения:";
+
+/* The title of the onboarding dialog popup to select the preferred App icon. */
+"onboarding.highlights.appIconSelection.title" = "Какой цвет мне идет?";
+
+/* Message to highlight how the browser allows you to block cookie pop-ups */
+"onboarding.highlights.browsers.features.cookiePopups.title" = "Блокировка запросов и всплывающих окон куки";
+
+/* Message to highlight browser capability of blocking creepy ads */
+"onboarding.highlights.browsers.features.creepyAds.title" = "Блокировка целевой рекламы";
+
+/* Message to highlight browser capability of swiftly erase browsing data */
+"onboarding.highlights.browsers.features.eraseBrowsingData.title" = "Быстрое удаление данных из браузера";
+
+/* Message to highlight browser capability ofblocking 3rd party trackers */
+"onboarding.highlights.browsers.features.trackerBlocker.title" = "Блокировка сторонних трекеров";
+
+/* The title of the dialog to show the privacy features that DuckDuckGo offers */
+"onboarding.highlights.browsers.title" = "Защита включена";
+
+/* The title of the fire button CTA to skip erasing the data. */
+"onboarding.highlights.fireDialog.cta.skip" = "Пропустить";
+
+/* The title of the onboarding dialog popup */
+"onboarding.highlights.intro.title" = "Привет!\n\nБыстрый и надежный браузер заказывали?";
+
+/* Button to continue the onboarding process */
+"onboarding.intro.cta" = "Поехали!";
+
+/* No comment provided by engineer. */
+"onboarding.widgets.continueButton" = "Добавить виджет";
+
+/* No comment provided by engineer. */
+"onboarding.widgets.header" = "Пользоваться DuckDuckGo стало еще проще.";
+
+/* No comment provided by engineer. */
+"onboarding.widgets.skipButton" = "Позже";
+
+/* No comment provided by engineer. */
+"onboardingContinue" = "Продолжить";
+
+/* No comment provided by engineer. */
+"onboardingDefaultBrowserMaybeLater" = "Позже";
+
+/* No comment provided by engineer. */
+"onboardingDefaultBrowserTitle" = "Выберите DuckDuckGo браузером по умолчанию!";
+
+/* No comment provided by engineer. */
+"onboardingSetAsDefaultBrowser" = "Сделать браузером по умолчанию";
+
+/* No comment provided by engineer. */
+"onboardingSkip" = "Пропустить";
+
+/* This is on a button presented on the last of the onboarding screens. */
+"onboardingStartBrowsing" = "Начать просмотр";
+
+/* No comment provided by engineer. */
+"onboardingWelcomeHeader" = "Добро пожаловать в DuckDuckGo!";
+
+/* ’Link’ is link on a website */
+"open.externally.failed" = "Приложение для открытия этой ссылки не найдено";
+
+/* Activate button */
+"pm.activate" = "Активировать";
+
+/* Cancel button */
+"pm.cancel" = "Отменить";
+
+/* Deactivate button */
+"pm.deactivate" = "Деактивировать";
+
+/* Label for the email form in the Privacy Pro feedback form */
+"ppro.feedback-form.email.label" = "Электронная почта (необязательно)";
+
+/* Placeholder for the email form in the Privacy Pro feedback form */
+"ppro.feedback-form.email.placeholder" = "имя@почта.com";
+
+/* Placeholder for the General Feedback step in the Privacy Pro feedback form */
+"ppro.feedback-form.general-feedback.placeholder" = "Оставьте комментарий здесь...";
+
+/* Title for the General Feedback step in the Privacy Pro feedback form */
+"ppro.feedback-form.general-feedback.title" = "Общий комментарий";
+
+/* Title for the ITR category in the Privacy Pro feedback form */
+"ppro.feedback-form.report-itr-problem.title" = "Identity Theft Restoration";
+
+/* Title for the PIR category in the Privacy Pro feedback form */
+"ppro.feedback-form.report-pir-problem.title" = "Personal Information Removal";
+
+/* Title for the Subscriptions and Payments category in the Privacy Pro feedback form */
+"ppro.feedback-form.report-ppro-problem.title" = "Подписки и платежи";
+
+/* Placeholder for the Report a Problem step in the Privacy Pro feedback form */
+"ppro.feedback-form.report-problem.placeholder" = "Опишите, что происходит…";
+
+/* Title for the Report a Problem step in the Privacy Pro feedback form */
+"ppro.feedback-form.report-problem.title" = "Отчет о проблеме";
+
+/* Title for the VPN category in the Privacy Pro feedback form */
+"ppro.feedback-form.report-vpn-problem.title" = "VPN";
+
+/* Placeholder for the Feature Request step in the Privacy Pro feedback form */
+"ppro.feedback-form.request-feature.placeholder" = "Какую функцию вы хотели бы увидеть?";
+
+/* Title for the Feature Request step in the Privacy Pro feedback form */
+"ppro.feedback-form.request-feature.title" = "Запрос функции";
+
+/* Title for the category selection section in the Privacy Pro feedback form */
+"ppro.feedback-form.select-category.title" = "ВЫБЕРИТЕ КАТЕГОРИЮ";
+
+/* Text for the body of the PPro feedback form */
+"ppro.feedback-form.text-1" = "Столкнулись с проблемой, которая не затронута в нашем [справочном центре](duck://)? Мы просто обязаны о ней знать.\n\nУкажите адрес эл. почты, если вы хотите, чтобы мы связались с вами по этому вопросу (возможно, мы не ответим на все вопросы):";
+
+/* Text for the body of the PPro feedback form */
+"ppro.feedback-form.text-2" = "Помимо указанных выше данных, вместе с отзывом отправляется следующая обезличенная информация:";
+
+/* Bullet text for the body of the PPro feedback form */
+"ppro.feedback-form.text-3" = "• сведения о том, были ли активированы некоторые функции браузера";
+
+/* Bullet text for the body of the PPro feedback form */
+"ppro.feedback-form.text-4" = "• обобщенные результаты диагностики приложения (например, коды ошибок)";
+
+/* Text for the body of the PPro feedback form */
+"ppro.feedback-form.text-5" = "Нажимая кнопку «Отправить», вы разрешаете DuckDuckGo использовать предоставленную информацию для улучшения работы приложения.";
+
+/* Title for the text box in the Privacy Pro feedback form */
+"ppro.feedback-form.text-box.title" = "Отзыв";
+
+/* Title for the Privacy Pro feedback form */
+"ppro.feedback-form.title" = "Отправить отзыв";
+
+/* Button title for sync bookmarks limits exceeded warning to go to manage bookmarks */
+"prefrences.sync.bookmarks-limit-exceeded-action" = "Управление закладками";
+
+/* Description for sync bookmarks limits exceeded warning */
+"prefrences.sync.bookmarks-limit-exceeded-description" = "Достигнуто максимальное число закладок. Чтобы возобновить синхронизацию, удалите некоторые из них.";
+
+/* Button title for sync credentials limits exceeded warning to go to manage passwords */
+"prefrences.sync.credentials-limit-exceeded-action" = "Управление паролями...";
+
+/* Description for sync credentials limits exceeded warning */
+"prefrences.sync.credentials-limit-exceeded-description" = "Достигнуто максимальное число паролей. Чтобы возобновить синхронизацию, удалите некоторые из них.";
+
+/* Description invalid credentials error when syncing.
+Description of incorrectly formatted data error when syncing.
+Description of too many requests error when syncing. */
+"prefrences.sync.invalid-login-description" = "Некоторые закладки или пароли не синхронизируются из-за неверного формата или превышения ограничений по длине.";
+
+/* Title for sync limits exceeded warning */
+"prefrences.sync.limit-exceeded-title" = "Синхронизация на паузе";
+
+/* No comment provided by engineer. */
+"preserveLogins.domain.list.footer" = "Чтобы вам не приходилось каждый раз входить в свою учетную запись, сайты используют куки-файлы. Если сделать сайт огнеупорным, мы не будем стирать его куки-файлы, даже если вы воспользуетесь кнопкой «Огонь». Но мы по-прежнему будем блокировать сторонние трекеры, в том числе на огнеупорных сайтах.";
+
+/* Section header above Fireproofed websites list */
+"preserveLogins.domain.list.title" = "Огнеупорные сайты";
+
+/* Alert message explaining to users that the benefit of fireproofing a site is that they will be kept signed in */
+"preserveLogins.fireproof.message" = "Вам не придется заново входить в свою учетную запись даже после применения кнопки «Огонь».";
+
+/* Parameter is a string - domain name. Alert title prompting user to fireproof a site so they can stay signed in */
+"preserveLogins.fireproof.title" = "Сделать сайт %@ огнеупорным, чтобы не выходить из учетной записи?";
+
+/* Confirm fireproofing action */
+"preserveLogins.menu.confirm" = "Сделать огнеупорным";
+
+/* Parameter is a website URL. Messege confirms that given website has been fireproofed. */
+"preserveLogins.menu.confirm.message" = "%@ теперь огнеупорный";
+
+/* Deny fireproofing action */
+"preserveLogins.menu.defer" = "Не сейчас";
+
+/* Disable fireproofing for site */
+"preserveLogins.menu.disable" = "Снять огнеупорность";
+
+/* Enable fireproofing for site */
+"preserveLogins.menu.enable" = "Сделать огнеупорным";
+
+/* Messege confirms that website is no longer fireproofed. */
+"preserveLogins.menu.removal.message" = "Огнеупорность снята";
+
+/* Alert title */
+"preserveLogins.remove.all" = "Удалить все";
+
+/* Confirmation button in alert */
+"preserveLogins.remove.all.ok" = "Хорошо";
+
+/* No comment provided by engineer. */
+"Privacy Protections" = "Защита конфиденциальности";
+
+/* Privacy Icon accessibility title */
+"privacy.icon.dax" = "Логотип DuckDuckGo";
+
+/* Privacy Icon accessibility hint */
+"privacy.icon.hint" = "Нажмите, чтобы открыть панель конфиденциальности";
+
+/* Privacy Icon accessibility title */
+"privacy.icon.shield" = "Значок конфиденциальности";
+
+/* Deny action */
+"prompt.custom.url.scheme.dontopen" = "Отменить";
+
+/* Confirm action */
+"prompt.custom.url.scheme.open" = "Открыть";
+
+/* No comment provided by engineer. */
+"prompt.custom.url.scheme.prompt" = "Выйти из DuckDuckGo для просмотра этого контента?";
+
+/* Alert title */
+"prompt.custom.url.scheme.title" = "Открыть в другом приложении?";
+
+/* No comment provided by engineer. */
+"Reset" = "Сбросить";
+
+/* No comment provided by engineer. */
+"search.hint.duckduckgo" = "Введите поисковый запрос или адрес сайта";
+
+/* No comment provided by engineer. */
+"section.title.bookmarks" = "Закладки";
+
+/* No comment provided by engineer. */
+"section.title.favorites" = "Избранное";
+
+/* Name of the option the user can chose to give general browser feedback */
+"send.browser.feedback.general-feedback" = "Общий комментарий";
+
+/* Name of the option the user can chose to give browser feedback about a problem they enountered */
+"send.browser.feedback.report-problem" = "Отчет о проблеме";
+
+/* Name of the option the user can chose to give browser feedback about a feature they would like */
+"send.browser.feedback.request-feature" = "Запрос функции";
+
+/* Title of the picker where the user can chose the category of the feedback they want ot send. */
+"send.browser.feedback.select-category" = "ВЫБЕРИТЕ КАТЕГОРИЮ";
+
+/* Settings cell for About DDG */
+"settings.about.ddg" = "Несколько слов о DuckDuckGo";
+
+/* Settings section title for About DuckDuckGo */
+"settings.about.section" = "О нас";
+
+/* about page */
+"settings.about.text" = "DuckDuckGo — независимая компания, которая c 2008 года предоставляет услуги защиты личных данных в интернете. Мы предлагаем простое решение для тех, кому надоело отслеживание онлайн. Своим примером DuckDuckGo показывает, что защита конфиденциальности в Сети не требует компромиссов.\n\nВ универсальном браузере DuckDuckGo вы найдете все те же привычные функции — вкладки, закладки, пароли, — а также более [десятка мощных средств защиты личной информации](ddgQuickLink://duckduckgo.com/duckduckgo-help-pages/privacy/web-tracking-protections/), которых нет в стандартных пакетах других популярных веб-обозревателей. Наш всесторонний набор инструментов скроет от посторонних глаз всю вашу онлайн-активность, включая поиск, просмотр сайтов и чтение почты.\n\nСервисы DuckDuckGo не требуют особых технических познаний или работы со сложными настройками. Достаточно сменить свой браузер на DuckDuckGo на всех устройствах, и конфиденциальность онлайн станет вашим спутником по умолчанию.\n\nЕсли же вас интересует наша «кухня», вы можете почитать о том, как устроены инструменты защиты DuckDuckGo, на [страницах нашего справочного центра](ddgQuickLink://duckduckgo.com/duckduckgo-help-pages/).";
+
+/* Settings screen accessibility section title */
+"settings.accessibility" = "Универсальный доступ";
+
+/* Settings screen cell text for adding the app to the dock */
+"settings.add.to.dock" = "Добавьте приложение на док-панель";
+
+/* Settings screen cell text for add widget to the home screen */
+"settings.add.widget" = "Добавьте виджет на домашний экран";
+
+/* Title for the settings VPN subsection where the user can learn how to add the VPN to their home screen */
+"settings.add.widget.vpn" = "Добавить виджет DuckDuckGo VPN на главный экран";
+
+/* Name of the settings subsection related to the address bar
+Settings screen cell text for addess bar position */
+"settings.address.bar" = "Адресная строка";
+
+/* Settings screen cell title for toggling full URL visibility in address bar */
+"settings.address.full.url" = "Показывать полный адрес сайта";
+
+/* Label describing a feature which is turned on always */
+"settings.always.on" = "Всегда включено";
+
+/* Settings screen appearance section title */
+"settings.appearance" = "Внешний вид";
+
+/* Settings screen cell for opening links in associated apps */
+"settings.associated.apps" = "Открывать ссылки в связанных приложениях";
+
+/* Description for associated apps description */
+"settings.associated.apps.description" = "Отключение этой функции не позволит ссылкам автоматически открываться в других приложениях.";
+
+/* Settings screen cell for autocomplete */
+"settings.autocomplete" = "Поисковые рекомендации";
+
+/* Settings label for enabling or disabling recently visited sites */
+"settings.autocomplete.recentlyvisited" = "Недавно посещенные сайты";
+
+/* Settings label for enabling or disabling recently visited sites */
+"settings.autocomplete.recentlyvisited.subtitle" = "Показывать в рекомендациях поиска недавно посещенные сайты. Их список хранится только на вашем устройстве, и его можно удалить с помощью кнопки Fire Button.";
+
+/* Subtitle for Search Suggestions setting */
+"settings.autocomplete.subtitle" = "Показывать поисковые рекомендации (включая закладки) по мере ввода текста. Все поисковые запросы конфиденциальны.";
+
+/* Settings screen cell text for Application Lock */
+"settings.autolock" = "Блокировка";
+
+/* Section footer Autolock description */
+"settings.autolock.description" = "Если в системе работает технология Touch ID, Face ID или код-пароль, при запуске вам придется разблокировать приложение.";
+
+/* Settings cell for Browser Feedback */
+"settings.browser.feedback" = "Отзыв о браузере";
+
+/* Settings screen cell text for Automatically Clearing Data */
+"settings.clear.data" = "Автоудаление данных";
+
+/* The name of Settings category in Privacy Features related to configuration of the privacy feature related to cookie pop-ups */
+"settings.cookie.pop-up-protection.protection" = "Защита от всплывающих окон куки";
+
+/* Explanation in Settings how the cookie pop up protection feature works */
+"settings.cookie.pop.up.protection.explanation" = "DuckDuckGo по возможности откажется от куки-файлов и скроет подобные окна.\n[Подробнее...](ddgQuickLink://duckduckgo.com/duckduckgo-help-pages/privacy/web-tracking-protections/#cookie-pop-up-management)";
+
+/* Settings screen cell text for Cookie popups */
+"settings.cookie.popups" = "Управление окнами выбора куки-файлов";
+
+/* Settings title for the customize section */
+"settings.customize" = "Собственная настройка";
+
+/* The name of a settings subsection related to the data clearing */
+"settings.data.clearing" = "Очистка данных";
+
+/* Settings screen cell text for setting the app as default browser
+The name of Settings category in Privacy Features related to configuration of the default browser */
+"settings.default.browser" = "Браузер по умолчанию";
+
+/* Label of a button disabling email protection */
+"settings.disable.email.protection.autofill" = "Отключить автозаполнение в рамках защиты почты";
+
+/* Settings cell to link users to other products by DuckDuckGo */
+"settings.duckduckgo.on.other.platforms" = "DuckDuckGo для других платформ";
+
+/* Explanation in Settings how the email protection feature works */
+"settings.email.protection.explanation" = "Оказывается, чтобы избавиться от трекеров и скрыть свой адрес, вовсе не нужно менять почтовый сервис.\n[Подробнее...](ddgQuickLink://duckduckgo.com/duckduckgo-help-pages/email-protection/what-is-duckduckgo-email-protection/)";
+
+/* Alert presented to user after clicking on 'Sign out' in Email Protection Settings */
+"settings.email.protection.signing.out.alert" = "При выходе из учетной записи Email Protection будет отключено автозаполнение адресов Duck Address в этом браузере. Вы по-прежнему сможете пользоваться этими адресами и получать пересылаемую почту как обычно.";
+
+/* Settings cell for Email Protection */
+"settings.emailProtection.description" = "Блокировка почтовых трекеров и скрытие адреса";
+
+/* Label of a button enabling the email protection feature */
+"settings.enable.email.protection" = "Включите защиту электронной почты";
+
+/* Settings screen cell text for enabling voice search */
+"settings.enable.voice.search" = "Включить голосовой поиск";
+
+/* Settings cell for Feedback */
+"settings.feedback" = "Оставьте нам отзыв";
+
+/* Settings screen cell text for fire button animation */
+"settings.firebutton" = "Aнимация кнопки «Огонь»";
+
+/* Settings screen cell text for Fireproof Sites */
+"settings.fireproof.sites" = "Огнеупорные сайты";
+
+/* The name of the settings subsection containing general settings */
+"settings.general" = "Основные";
+
+/* Settings screen cell text for GPC */
+"settings.gpc" = "Глобальный контроль конфиденциальности (GPC)";
+
+/* Settings screen cell text for app icon selection */
+"settings.icon" = "Значок приложения";
+
+/* Settings screen cell for Keyboard */
+"settings.keyboard" = "Клавиатура";
+
+/* Switch button label. */
+"settings.let.duckduckgo.manage.cookie.consent.popups" = "Разрешить DuckDuckGo управлять окнами выбора куки-файлов";
+
+/* Settings screen cell text for passwords */
+"settings.logins" = "Пароли";
+
+/* The name of the settings section containing main settings */
+"settings.main.settings" = "Основные настройки";
+
+/* Label of a button managing email protection account */
+"settings.manage.account" = "Управление учетной записью";
+
+/* Settings title for the 'More' section */
+"settings.more" = "DuckDuckGo также предлагает...";
+
+/* Button navigating to other settings related to search */
+"settings.more.search.settings" = "Дополнительные настройки поиска";
+
+/* Subtitle of the 'More Search Settings' button */
+"settings.more.search.settings.explanation" = "Выбор языка, региона и так далее";
+
+/* The name of a settings category listing next steps */
+"settings.next.steps" = "Дальнейшие шаги";
+
+/* Label describing a feature which is turned off */
+"settings.off" = "Выключено";
+
+/* Label describing a feature which is turned on */
+"settings.on" = "Включено";
+
+/* Product name for the subscription bundle */
+"settings.ppro" = "Privacy Pro";
+
+/* Title for Link in the Footer of Privacy Pro section */
+"settings.ppro.footer" = "Политика конфиденциальности и условия обслуживания";
+
+/* Settings screen cell for long press previews */
+"settings.previews" = "Предпросмотр долгим нажатием";
+
+/* Settings title for the privacy section */
+"settings.privacy" = "Настройки конфиденциальности";
+
+/* The name of Settings category in Privacy Features related to configuration of the search */
+"settings.private.search" = "Частный поиск";
+
+/* Explanation in Settings how the private search feature works */
+"settings.private.search.explanation" = "DuckDuckGo Private Search — ваша поисковая система по умолчанию. Вы можете пользоваться поиском в интернете, не опасаясь слежки.";
+
+/* Header of settings related to search */
+"settings.search.settings" = "Настройки поиска";
+
+/* Settings cell for Send Crash Reports */
+"settings.send.crash.reports" = "Отправлять отчеты о сбоях";
+
+/* Explanation of Send Crash Reports settings option */
+"settings.send.crash.reports.description" = "Автоматически отправлять отчеты о сбоях в DuckDuckGo.";
+
+/* Settings screen cell text for setting address bar position */
+"settings.set.your.address.bar.position" = "Настроить положение адресной строки";
+
+/* Privacy pro description subtitle in settings when the is activating */
+"settings.subscription.activating" = "Выполняется активация";
+
+/* Subscription activation pending description */
+"settings.subscription.activation.pending.description" = "Этот процесс занимает больше времени, чем обычно. Вернитесь сюда чуть позже.";
+
+/* Data Broker protection cell subtitle for privacy pro */
+"settings.subscription.DBP.subtitle" = "Удаляет ваши данные с сайтов, которые занимаются их продажей";
+
+/* Data Broker protection cell title for privacy pro */
+"settings.subscription.DBP.title" = "Personal Information Removal";
+
+/* I have a Subscription button text for privacy pro */
+"settings.subscription.existing.subscription" = "У меня уже есть подписка";
+
+/* Subscription expired description */
+"settings.subscription.expired.comment" = "Чтобы использовать Privacy Pro, подпишитесь заново";
+
+/* Subscription expired tittle message */
+"settings.subscription.expired.title" = "Срок действия вашей подписки Privacy Pro истек";
+
+/* Identity theft restoration cell subtitle for privacy pro */
+"settings.subscription.ITR.subtitle" = "Восстанавливает контроль над украденными личными данными";
+
+/* Identity theft restoration cell title for privacy pro */
+"settings.subscription.ITR.title" = "Identity Theft Restoration";
+
+/* Get Privacy Pro button text for privacy pro */
+"settings.subscription.learn.more" = "Перейти на Privacy Pro";
+
+/* Subscription Settings button text for privacy pro */
+"settings.subscription.manage" = "Настройки подписки";
+
+/* Privacy Pro description subtitle in settings */
+"settings.subscription.row.description" = "Включает услуги: VPN и и Identity Theft Restoration (восстановление данных после «кражи личности»).";
+
+/* Call to action title for Privacy Pro settings */
+"settings.subscription.subscribe" = "Тариф Privacy Pro для защиты соединения и личных данных";
+
+/* Privacy pro description subtitle in settings */
+"settings.subscription.us.description" = "Включает услуги: VPN, Personal Information Removal (удаление личной информации) и Identity Theft Restoration (восстановление данных после «кражи личности»).";
+
+/* VPN cell title for privacy pro */
+"settings.subscription.VPN.title" = "VPN";
+
+/* Label of a button navigating to the Support page */
+"settings.support" = "Поддержка";
+
+/* Settings screen cell text for sync and backup */
+"settings.sync" = "Синхронизация и резервное копирование";
+
+/* Settings screen cell text for text size */
+"settings.text.size" = "Масштаб текста по умолчанию";
+
+/* Settings screen cell text for theme */
+"settings.theme" = "Тема";
+
+/* Title for the Settings View */
+"settings.title" = "Настройки";
+
+/* Settings screen cell text for Unprotected Sites */
+"settings.unprotected.sites" = "Незащищенные сайты";
+
+/* Settings cell for Version */
+"settings.version" = "Версия";
+
+/* Settings screen cell for voice search */
+"settings.voice.search" = "Конфиденциальный голосовой поиск";
+
+/* The name of Settings category in Privacy Features related to configuration of the web tracking protection feature */
+"settings.web.tracking.protection" = "Защита от отслеживания онлайн";
+
+/* Explanation in Settings how the web tracking protection feature works */
+"settings.web.tracking.protection.explanation" = "DuckDuckGo автоматически блокирует скрытые трекеры, пока вы посещаете сайты.\n[Подробнее...](ddgQuickLink://duckduckgo.com/duckduckgo-help-pages/privacy/web-tracking-protections/)";
+
+/* Description on a report broken site page. */
+"site.not.working.description" = "Выберите наиболее точное описание проблемы, с которой вы столкнулись.";
+
+/* Dismiss button */
+"site.not.working.dismiss" = "Отклонить";
+
+/* Button that triggers flow to report broken site */
+"site.not.working.report.broken.site" = "Сообщить о неработающем сайте";
+
+/* Prompt asking user to send report to us if we suspect site may be broken */
+"site.not.working.subtitle" = "Ваш ответ поможет нам улучшить работу браузера.";
+
+/* Prompt asking user to send report to us if we suspect site may be broken */
+"site.not.working.title" = "Сайт не работает? Сообщите в DuckDuckGo!";
+
+/* Report a Broken Site screen confirmation button */
+"siteFeedback.buttonText" = "Отправить жалобу";
+
+/* Domain is an URL address */
+"siteFeedback.domainInfo" = "Домен неработающего сайта:";
+
+/* No comment provided by engineer. */
+"siteFeedback.messagePlaceholder" = "С каким контентом или функциями возникли проблемы?";
+
+/* No comment provided by engineer. */
+"siteFeedback.subtitle" = "Жалобы на неработающие сайты полностью анонимны и помогают нам улучшить приложение.";
+
+/* This is a form title */
+"siteFeedback.title" = "Сообщить о неработающем сайте";
+
+/* No comment provided by engineer. */
+"siteFeedback.urlPlaceholder" = "На каком сайте возникает проблема?";
+
+/* No comment provided by engineer. */
+"Stored Hostname: %@" = "Сохраненное имя хоста: %@";
+
+/* Subscription Activation Info */
+"subscription.activate..header.description" = "Подпиской Privacy Pro можно пользоваться на этом устройстве через аккаунт Apple или адрес электронной почты.";
+
+/* Button for adding email address to subscription */
+"subscription.activate.add.email.button" = "Добавить адрес эл. почты";
+
+/* Apple Account option for activation */
+"subscription.activate.appleid" = "Аккаунт Apple";
+
+/* Button text for restoring purchase via Apple Account */
+"subscription.activate.appleid.button" = "Восстановить покупку";
+
+/* Description for Apple Account activation */
+"subscription.activate.appleid.description" = "Восстановите покупку, чтобы активировать подписку на этом устройстве.";
+
+/* Subscription Activation Info */
+"subscription.activate.description" = "Ваша подписка на DuckDuckGo автоматически доступна на любом устройстве: просто войдите в аккаунт Apple.";
+
+/* Button for editing email address added to subscription */
+"subscription.activate.edit.email.button" = "Изменить адрес почты";
+
+/* View Title for editing your email account */
+"subscription.activate.edit.email.title" = "Изменить адрес почты";
+
+/* Email option for activation */
+"subscription.activate.email" = "Электронная почта";
+
+/* Restore button title for Email */
+"subscription.activate.email.button" = "Ввести адрес эл. почты";
+
+/* Description for Email activation */
+"subscription.activate.email.description" = "Используйте адрес электронной почты, чтобы активировать подписку на этом устройстве.";
+
+/* Activate subscription title */
+"subscription.activate.email.title" = "Активация подписки";
+
+/* Button title for cancelling email deletion */
+"subscription.activate.manage.email.cancel" = "Отменить";
+
+/* Button title for confirming email deletion */
+"subscription.activate.manage.email.OK" = "Хорошо";
+
+/* Restore button title for AppleID */
+"subscription.activate.restore.apple" = "Восстановить покупку";
+
+/* Subscription Activation Title */
+"subscription.activate.title" = "Активировать подписку на этом устройстве";
+
+/* Resend activation instructions button */
+"subscription.add.device.resend.instructions" = "Отправить заново";
+
+/* Add email to an existing subscription */
+"subscription.add.email" = "Чтобы активировать подписку на других устройствах, добавьте адрес электронной почты. Он будет использоваться только для подтверждения подписки.";
+
+/* View title for adding email to subscription */
+"subscription.add.email.title" = "Добавить адрес эл. почты";
+
+/* Subscription availability message on Apple devices */
+"subscription.available.apple" = "Подписка Privacy Pro доступна на любом устройстве, где выполнен вход в тот же аккаунт Apple.";
+
+/* Text for the manage billing page */
+"subscription.billing.google.text" = "Ваша подписка приобретена в магазине приложений Google Play Store. Чтобы продлить ее, откройте настройки подписок в Google Play Store на устройстве, где выполнен вход в ту же учетную запись Google, через которую была изначально оформлена подписка.";
+
+/* Title for the manage billing page */
+"subscription.billing.google.title" = "Тарифные планы";
+
+/* Subscription Removal confirmation message */
+"subscription.cancel.message" = "Ваша подписка удалена с этого устройства.";
+
+/* Change plan or cancel title */
+"subscription.change.plan" = "Изменить или отменить подписку";
+
+/* Navigation Button for closing subscription view */
+"subscription.close" = "Закрыть";
+
+/* Title for Confirm messages */
+"subscription.confirm.title" = "Вы уверены?";
+
+/* Header for section for activating subscription on other devices */
+"subscription.devices.header" = "Активация подписки на других устройствах";
+
+/* Footer for section for activating subscription on other devices when email was not yet added */
+"subscription.devices.no.email.footer" = "Привяжите к подписке дополнительный адрес электронной почты, чтобы пользоваться преимуществами тарифа Privacy Pro на других устройствах. **[Подробнее...](https://duckduckgo.com/duckduckgo-help-pages/privacy-pro/adding-email/)**";
+
+/* Footer for section for activating subscription on other devices when email is added */
+"subscription.devices.with.email.footer" = "Используйте этот адрес для активации подписки в разделе «Настройки > Privacy Pro» в приложении DuckDuckGo на других устройствах. **[Подробнее...](https://duckduckgo.com/duckduckgo-help-pages/privacy-pro/adding-email/)**";
+
+/* Alert content for not found subscription */
+"subscription.email.inactive.alert.message" = "Подписка, закрепленная за этой учетной записью, утратила активный статус.";
+
+/* Alert title for not found subscription */
+"subscription.email.inactive.alert.title" = "Подписка не найдена";
+
+/* Alert content for not found subscription */
+"subscription.expired.alert.message" = "Подписка, закрепленная за этим аккаунтом Apple, утратила активный статус.";
+
+/* FAQ Button */
+"subscription.faq" = "ЧаВо и поддержка";
+
+/* FAQ Description */
+"subscription.faq.description" = "На страницах справочного раздела вы найдете ответы на часто задаваемые вопросы, а также контактную информацию службы поддержки Privacy Pro.";
+
+/* Send Feedback Button */
+"subscription.feedback" = "Отправить отзыв";
+
+/* Cancel action for the existing subscription dialog */
+"subscription.found.cancel" = "Отменить";
+
+/* Restore action for the existing subscription dialog */
+"subscription.found.restore" = "Восстановить";
+
+/* Message for the existing subscription dialog */
+"subscription.found.text" = "Мы нашли подписку, привязанную к этому аккаунту Apple.";
+
+/* Title for the existing subscription dialog */
+"subscription.found.title" = "Подписка найдена";
+
+/* Help and support Section header */
+"subscription.help" = "Справка и поддержка";
+
+/* Manage Plan header */
+"subscription.manage.plan" = "Управление тарифом";
+
+/* Header for the subscription section */
+"subscription.manage.title" = "По подписке";
+
+/* Alert content for not found subscription */
+"subscription.notFound.alert.message" = "К этому аккаунту Apple не привязано ни одной подписки.";
+
+/* Alert title for not found subscription */
+"subscription.notFound.alert.title" = "Подписка не найдена";
+
+/* View plans button text */
+"subscription.notFound.view.plans" = "Просмотреть тарифы";
+
+/* Hero Text for Personal information removal */
+"subscription.pir.hero" = "Чтобы включить функцию Personal Information Removal, активируйте подписку Privacy Pro на настольном компьютере";
+
+/* Description on how to use Personal information removal in desktop. The first placeholder references a location in the Desktop application. <i.e: Settings > Privacy Pro>, and the second, the menu entry. i.e. <I have a Subscription> */
+"subscription.pir.heroText" = "Для начала запустите настольную версию браузера DuckDuckGo, откройте раздел «%1$@» и нажмите «%2$@».";
+
+/* Settings references a menu in the Desktop app, Privacy Pro, references our product name */
+"subscription.pir.heroTextLocation" = "Настройки > Privacy Pro";
+
+/* Menu item for enabling Personal Information Removal on Desktop */
+"subscription.pir.heroTextMenyEntry" = "У меня уже есть подписка";
+
+/* Text for the 'macOS' button */
+"subscription.pir.macos" = "Mac";
+
+/* Text for the 'Windows' button */
+"subscription.pir.windows" = "Windows";
+
+/* Progress view title when completing the purchase */
+"subscription.progress.view.completing.purchase" = "Завершение покупки...";
+
+/* Progress view title when starting the purchase */
+"subscription.progress.view.purchasing.subscription" = "Оформление покупки...";
+
+/* Progress view title when restoring past subscription purchase */
+"subscription.progress.view.restoring.subscription" = "Восстановление подписки...";
+
+/* Remove from this device button */
+"subscription.remove.from.device.button" = "Удалить с этого устройства";
+
+/* Remove from device confirmation dialog text */
+"subscription.remove.from.device.text" = "Вы утратите доступ к возможностям тарифа Privacy Pro на этом устройстве. Сама же подписка не отменяется и по-прежнему будет работать на других устройствах.";
+
+/* Remove from device confirmation dialog title */
+"subscription.remove.from.device.title" = "Удалить с этого устройства?";
+
+/* Remove subscription button text */
+"subscription.remove.subscription" = "Удалить подписку";
+
+/* Remove subscription cancel button text */
+"subscription.remove.subscription.cancel" = "Отменить";
+
+/* Button text for general error message */
+"subscription.restore.backend.error.button" = "Назад к настройкам";
+
+/* Alert for general error message */
+"subscription.restore.backend.error.message" = "Возникли проблемы с подключением. Повторите попытку позже.";
+
+/* Alert for general error title */
+"subscription.restore.backend.error.title" = "Что-то пошло не так";
+
+/* Alert for general error message */
+"subscription.restore.general.error.message" = "Сервису App Store не удалось обработать вашу покупку. Повторите попытку позже.";
+
+/* Alert for general error title */
+"subscription.restore.general.error.title" = "Что-то пошло не так";
+
+/* Alert button text for restored purchase alert */
+"subscription.restore.success.alert.button" = "Хорошо";
+
+/* Alert message for restored purchase */
+"subscription.restore.success.alert.message" = "Ваши покупки восстановлены.";
+
+/* Alert title for restored purchase */
+"subscription.restore.success.alert.title" = "Готово!";
+
+/* Subtitle in header when subscribed */
+"subscription.subscribed" = "Подписка оформлена";
+
+/* Subscription Expired Data. This reads as 'Your subscription expired on (date)' */
+"subscription.subscription.expired.caption" = "Срок действия вашей подписки истек %@";
+
+/* Monthly subscription expiration info where parameter is expiration date. This reads as 'Your monthly subscription expires on (date)' */
+"subscription.subscription.expiring.monthly.caption" = "Ваша ежемесячная подписка завершится %@.";
+
+/* Unknown period subscription expiration info where parameter is expiration date. This reads as 'Your subscription expires on (date)' */
+"subscription.subscription.expiring.unknown.caption" = "Ваша подписка завершится %@.";
+
+/* Annual subscription expiration info where parameter is expiration date. This reads as 'Your annual subscription expires on (date)' */
+"subscription.subscription.expiring.yearly.caption" = "Ваша годовая подписка завершится %@.";
+
+/* Monthly subscription renewal info where parameter is renewal date. This reads as 'Your monthly subscription renews on (date)' */
+"subscription.subscription.renewing.monthly.caption" = "Ваша ежемесячная подписка продлится %@.";
+
+/* Unknown period subscription renewal info where parameter is renewal date. This reads as 'Your subscription renews on (date)' */
+"subscription.subscription.renewing.unknown.caption" = "Ваша подписка продлится %@.";
+
+/* Annual subscription renewal info where parameter is renewal date. This reads as 'Your annual subscription renews on (date)' */
+"subscription.subscription.renewing.yearly.caption" = "Ваша годовая подписка продлится %@.";
+
+/* Navigation bar Title for subscriptions */
+"subscription.title" = "Privacy Pro";
+
+/* Message confirming that recovery code was copied to clipboard */
+"sync.code.copied" = "Код восстановления скопирован в буфер обмена";
+
+/* Caption for a button to delete Sync server data */
+"sync.delete.all.confirm.action" = "Удалить данные с сервера";
+
+/* Message for the dialog to confirm deleting Sync server data */
+"sync.delete.all.confirm.message" = "Привязка устройств будет отключена, а синхронизированные данные — удалены с сервера.";
+
+/* Title of the dialog to confirm deleting Sync server data */
+"sync.delete.all.confirm.title" = "Удалить данные с сервера?";
+
+/* Message for the Sync Promotion banner when user has bookmarks that can be synced */
+"sync.promo.bookmarks.message" = "Учетная запись не требуется. Сквозное шифрование означает, что ваши закладки видны только вам. Даже у нас нет к ним доступа.";
+
+/* Title for the Sync Promotion banner */
+"sync.promo.bookmarks.title" = "Синхронизация и резервное копирование закладок";
+
+/* Title for a button in the Sync Promotion banner to set up Sync */
+"sync.promo.confirm.action" = "Настройка синхронизации";
+
+/* Title for a button in the Sync Promotion banner to dismiss Sync promotion banner */
+"sync.promo.dismiss.action" = "Нет, спасибо";
+
+/* Message for the Sync Promotion banner when user has passwords that can be synced */
+"sync.promo.passwords.message" = "Учетная запись не требуется. Сквозное шифрование означает, что ваши пароли видны только вам. Даже у нас нет к ним доступа.";
+
+/* Title for the Sync Promotion banner */
+"sync.promo.passwords.title" = "Синхронизация и резервное копирование паролей";
+
+/* Caption for a button to remove device from Sync */
+"sync.remove-device.action" = "Удалить";
+
+/* No comment provided by engineer. */
+"sync.remove-device.message" = "«%@» утратит доступ к синхронизированным данным.";
+
+/* Title of the dialog to remove device from Sync */
+"sync.remove-device.title" = "Удалить устройство?";
+
+/* Caption for a button to remove current device from Sync */
+"sync.turn.off.confirm.action" = "Удалить";
+
+/* Message for the dialog to confirm turning off Sync */
+"sync.turn.off.confirm.message" = "Это устройство утратит доступ к вашим синхронизированным данным.";
+
+/* Title of the dialog to confirm turning off Sync */
+"sync.turn.off.confirm.title" = "Отключить синхронизацию?";
+
+/* Reason for auth when setting up Sync */
+"sync.user.auth.reason" = "Для настройки синхронизации и резервного копирования нужно разблокировать устройство.";
+
+/* Data syncing unavailable warning message */
+"sync.warning.data.syncing.disabled" = "Синхронизация и резервное копирование сейчас недоступны. Повторите попытку позже.";
+
+/* Data syncing unavailable warning message */
+"sync.warning.data.syncing.disabled.upgrade.required" = "К сожалению, функция «Синхронизация и резервное копирование» больше не работает в этой версии приложения. Чтобы продолжить, обновите DuckDuckGo до последней версии.";
+
+/* Accessibility label on remove button */
+"tab.close.home" = "Закрыть домашнюю вкладку";
+
+/* Accesibility label: first string is website title, second is address */
+"tab.close.with.title.and.address" = "Закрыть сайт «%1$@» по адресу %2$@";
+
+/* Accessibility label on tab cell */
+"tab.open.home" = "Открыть домашнюю вкладку";
+
+/* Accesibility label: first string is website title, second is address */
+"tab.open.with.title.and.address" = "Открыть сайт «%1$@» по адресу %2$@";
+
+/* Tab Switcher Accessibility Label */
+"tab.switcher.accessibility.label" = "Переключатель вкладок";
+
+/* Description text for the text size adjustment setting */
+"textSize.description" = "Масштаб текста любого сайта можно отрегулировать.";
+
+/* Replacement string is a current percent value e.g. '120%' */
+"textSize.footer" = "Размер текста — %@";
+
+/* Dark Theme entry */
+"theme.acc.dark" = "Темная";
+
+/* Short entry for Default System theme */
+"theme.acc.default" = "Тема системы";
+
+/* Light Theme entry */
+"theme.acc.light" = "Светлая";
+
+/* Dark Theme entry */
+"theme.name.dark" = "Темная";
+
+/* Entry for Default System theme */
+"theme.name.default" = "По умолчанию";
+
+/* Light Theme entry */
+"theme.name.light" = "Светлая";
+
+/* No comment provided by engineer. */
+"This list contains messages that have been shown plus at most 1 message that is scheduled for showing. There may be more messages in the config that will be presented, but they haven't been processed yet." = "В этом списке содержатся уже показанные сообщения, а также максимум одно сообщение, показ которого запланирован. В конфигурации могут находиться и другие сообщения, которые будут показаны после обработки.";
+
+/* Confirmation of an action - populated with a domain name */
+"toast.protection.disabled" = "Защита конфиденциальности на %@ отключена";
+
+/* Confirmation of an action - populated with a domain name */
+"toast.protection.disabled.and.toggle.report.sent" = "Защита конфиденциальности на сайте %@ отключена, отчет отправлен.";
+
+/* Confirmation of an action - populated with a domain name */
+"toast.protection.enabled" = "Защита конфиденциальности на %@ включена";
+
+/* Autocomplete selected suggestion into the Address Bar button accessibility label */
+"voiceover.action.suggestion.autocomplete" = "Предложение для автозаполнения";
+
+/* Voice-over title for a Bookmark suggestion. Noun */
+"voiceover.suggestion.type.bookmark" = "Закладка";
+
+/* Search for suggestion action accessibility title */
+"voiceover.suggestion.type.search" = "Поиск в DuckDuckGo";
+
+/* Open suggested website action accessibility title */
+"voiceover.suggestion.type.website" = "Открыть сайт";
+
+/* No microphone permission alert action button to open the settings app */
+"voiceSearch.alert.no-permission.action.settings" = "Настройки";
+
+/* Message for alert warning the user about missing microphone permission */
+"voiceSearch.alert.no-permission.message" = "Чтобы пользоваться голосовыми функциями, откройте DuckDuckGo доступ к микрофону в системных настройках iOS.";
+
+/* OK button alert warning the user about missing microphone permission */
+"voiceSearch.alert.no-permission.ok" = "Хорошо";
+
+/* Title for alert warning the user about missing microphone permission */
+"voiceSearch.alert.no-permission.title" = "Требуется доступ к микрофону";
+
+/* Cancel button for voice search */
+"voiceSearch.cancel" = "Отменить";
+
+/* Voice-search footer note with on-device privacy warning */
+"voiceSearch.footer.note" = "Добавить опцию «Частный голосовой поиск» в адресную строку. Ваш голосовой запрос не сохраняется и никуда не передается, даже в DuckDuckGo.";
+
+/* Voice-search footer note with on-device privacy warning */
+"voiceSearch.footer.note.old" = "Аудио обрабатывается непосредственно на устройстве, не хранится и не передается никому, даже DuckDuckGo.";
+
+/* Cancel action for the alert when the subscription expires */
+"vpn.access-revoked.alert.action.cancel" = "Отклонить";
+
+/* Primary action for the alert when the subscription expires */
+"vpn.access-revoked.alert.action.subscribe" = "Подписаться";
+
+/* Alert message for the alert when the Privacy Pro subscription expiress */
+"vpn.access-revoked.alert.message" = "Чтобы вновь подключиться к DuckDuckGo VPN, оформите подписку Privacy Pro.";
+
+/* Alert title for the alert when the Privacy Pro subscription expires */
+"vpn.access-revoked.alert.title" = "VPN отключен ввиду окончания подписки";
+
+/* Title for the VPN widget onboarding screen */
+"vpn.addWidget.settings.title" = "Найдите и выберите **DuckDuckGo**, а затем с помощью свайпа перейдите к **VPN** и выберите вариант **Добавить виджет**.";
+
+/* Message for success when running the intent to enable the DuckDuckGo VPN */
+"vpn.control-widget.disable.vpn.intent.success" = "VPN DuckDuckGo подключен";
+
+/* No comment provided by engineer. */
+"vpn.control-widget.education.screen.description" = "Быстрые команды Siri позволяют оперативно подключиться к VPN с помощью голосового управления, например: «Siri, включи DuckDuckGo VPN». Это быстрый и удобный способ включить VPN, не занимая рук.";
+
+/* Siri commands education screen: example 1 */
+"vpn.control-widget.education.screen.example1" = "Siri, запусти DuckDuckGo VPN.";
+
+/* Siri commands education screen: example 2 */
+"vpn.control-widget.education.screen.example2" = "Siri, включи DuckDuckGo VPN.";
+
+/* Siri commands education screen: example 3 */
+"vpn.control-widget.education.screen.example3" = "Siri, защити мое устройство с помощью DuckDuckGo.";
+
+/* Title for the VPN Control Widget education screen title */
+"vpn.control-widget.education.screen.title" = "Управление DuckDuckGo VPN через Siri";
+
+/* Message for success when running the intent to enable the DuckDuckGo VPN */
+"vpn.control-widget.enable.vpn.intent.success" = "VPN DuckDuckGo подключен";
+
+/* Title for the Cancel button of the VPN feedback form */
+"vpn.feedback-form.button.cancel" = "Отменить";
+
+/* Title for the Done button of the VPN feedback form */
+"vpn.feedback-form.button.done" = "Готово";
+
+/* Title for the Submit button of the VPN feedback form */
+"vpn.feedback-form.button.submit" = "Отправить";
+
+/* Title for the Submitting state of the VPN feedback form */
+"vpn.feedback-form.button.submitting" = "Отправка...";
+
+/* Title for the browser crash/freeze category of the VPN feedback form */
+"vpn.feedback-form.category.browser-crash-or-freeze" = "VPN приводит к сбою или зависанию браузера";
+
+/* Title for the 'VPN fails to connect' category of the VPN feedback form */
+"vpn.feedback-form.category.fails-to-connect" = "VPN не подключается";
+
+/* Title for the 'VPN feature request' category of the VPN feedback form */
+"vpn.feedback-form.category.feature-request" = "Запрос функции VPN";
+
+/* Title for the category 'VPN causes issues with other apps or websites' category of the VPN feedback form */
+"vpn.feedback-form.category.issues-with-apps" = "VPN вызывает проблемы с другими приложениями или сайтами";
+
+/* Title for the local device connectivity category of the VPN feedback form */
+"vpn.feedback-form.category.local-device-connectivity" = "VPN не дает подключиться к локальному устройству";
+
+/* Title for the 'other VPN feedback' category of the VPN feedback form */
+"vpn.feedback-form.category.other" = "Другие отзывы о VPN";
+
+/* Title for the category selection state of the VPN feedback form */
+"vpn.feedback-form.category.select-category" = "ВЫБЕРИТЕ КАТЕГОРИЮ";
+
+/* Title for the 'VPN is too slow' category of the VPN feedback form */
+"vpn.feedback-form.category.too-slow" = "Слишком медленное соединение по VPN";
+
+/* Title for the 'unable to install' category of the VPN feedback form */
+"vpn.feedback-form.category.unable-to-install" = "Невозможно установить VPN";
+
+/* Title for the feedback sent view description of the VPN feedback form */
+"vpn.feedback-form.sending-confirmation.description" = "Ваш отзыв поможет нам улучшить сервис DuckDuckGo VPN.";
+
+/* Title for the feedback sending error text of the VPN feedback form */
+"vpn.feedback-form.sending-confirmation.error" = "Отправить ваш отзыв прямо сейчас не удалось. Повторите попытку.";
+
+/* Title for the feedback sent view title of the VPN feedback form */
+"vpn.feedback-form.sending-confirmation.title" = "Спасибо!";
+
+/* Toast message when the VPN feedback form is submitted successfully */
+"vpn.feedback-form.submitted.message" = "Спасибо! Ваш отзыв отправлен.";
+
+/* Text for the body of the VPN feedback form */
+"vpn.feedback-form.text-1" = "Опишите, что происходит, что ожидалось и какие действия привели к неполадке.";
+
+/* Text for the body of the VPN feedback form */
+"vpn.feedback-form.text-2" = "Помимо информации, внесенной в эту форму, в отчет войдет следующее:";
+
+/* Bullet text for the body of the VPN feedback form */
+"vpn.feedback-form.text-3" = "• сведения о том, были ли активированы конкретные функции DuckDuckGo;";
+
+/* Bullet text for the body of the VPN feedback form */
+"vpn.feedback-form.text-4" = "• обобщенные результаты диагностики приложения DuckDuckGo.";
+
+/* Text for the body of the VPN feedback form */
+"vpn.feedback-form.text-5" = "Нажимая кнопку «Отправить», я разрешаю DuckDuckGo использовать данные в этом отчете для улучшения работы приложения.";
+
+/* Title for each screen of the VPN feedback form */
+"vpn.feedback-form.title" = "Помогите нам улучшить DuckDuckGo VPN";
+
+/* VPN settings screen cell text for adding the VPN widget to the control center */
+"vpn.settings.add.control-center.widget" = "Добавить VPN в Центр управления";
+
+/* VPN settings screen cell text for adding the VPN widget to the home screen */
+"vpn.settings.add.widget" = "Добавить виджет VPN на главный экран";
+
+/* VPN settings screen cell text to learn how to control the VPN with Siri */
+"vpn.settings.control.with.siri" = "Управление VPN с помощью Siri";
+
+/* Disclaimer for the DNS Server section on the DNS Server screen */
+"vpn.settings.dns.section-disclaimer" = "Использование собственного DNS-сервера может снизить скорость просмотра веб-страниц и обнаружить ваши действия для третьих лиц, если сервер плохо защищен или работает ненадежно.";
+
+/* Header text for the DNS section on the VPN Settings screen */
+"vpn.settings.dns.section-header" = "DNS";
+
+/* Title for the Apply button on the DNS Server setting screen */
+"vpn.settings.dns.server.apply.button.title" = "Применить";
+
+/* Default value for the DNS Server row on the VPN Settings screen */
+"vpn.settings.dns.server.default.value" = "DuckDuckGo";
+
+/* Title for the IPv4 Address setting */
+"vpn.settings.dns.server.ipv4.title" = "IPv4-адрес";
+
+/* Custom option for the DNS Server setting */
+"vpn.settings.dns.server.option.custom" = "Свой";
+
+/* Recommended option for the DNS Server setting */
+"vpn.settings.dns.server.option.default" = "DuckDuckGo (рекомендуется)";
+
+/* Title for the DNS Server setting screen */
+"vpn.settings.dns.server.screen.title" = "DNS-сервер";
+
+/* Title for the DNS Server row on the VPN Settings screen */
+"vpn.settings.dns.server.title" = "DNS-сервер";
+
+/* Title for the button to enable push notifications in system settings */
+"waitlist.allow-notifications" = "Разрешить уведомления";
+
+/* Body text for the waitlist notification */
+"waitlist.available.notification.body" = "Откройте приглашение";
+
+/* Title for the copy action */
+"waitlist.copy" = "Копировать";
+
+/* Label text for the invite code */
+"waitlist.invite-code" = "Код приглашения";
+
+/* Step title on the invite screen */
+"waitlist.invite-screen.step.title" = "Шаг %d";
+
+/* Title for the invite code screen */
+"waitlist.invite-screen.youre-invited" = "Вас пригласили!";
+
+/* Title for the Join Waitlist screen */
+"waitlist.join-waitlist-screen.join" = "Приглашаем встать в очередь";
+
+/* Temporary status text for the Join Waitlist screen */
+"waitlist.join-waitlist-screen.joining" = "Добавление в список ожидания...";
+
+/* Title for the Share Link button */
+"waitlist.join-waitlist-screen.share-link" = "Поделиться ссылкой";
+
+/* Notification text for the waitlist */
+"waitlist.joined.no-notification.get-notification" = "ОПОВЕСТИТЬ";
+
+/* Title for the alert to confirm enabling notifications */
+"waitlist.joined.no-notification.get-notification-confirmation-title" = "Сообщить, когда придет ваша очередь?";
+
+/* Cancel button in the alert to confirm enabling notifications */
+"waitlist.joined.no-notification.no-thanks" = "Нет, спасибо";
+
+/* Text used for the Notifications Disabled state */
+"waitlist.notification.disabled" = "Мы можем уведомить вас, когда подойдет ваша очередь, но для этого нужно включить уведомления от DuckDuckGo.";
+
+/* Privacy disclaimer for the Waitlist feature */
+"waitlist.privacy-disclaimer" = "Чтобы записаться в список ожидания, не нужно делиться личной информацией. Временная метка, хранящаяся только на вашем устройстве, позволит нам определить, когда подойдет ваша очередь, о чем мы сообщим вам дополнительно.";
+
+/* Title for the queue screen */
+"waitlist.queue-screen.on-the-list" = "Вы в списке!";
+
+/* Title for the settings subtitle */
+"waitlist.settings.download-available" = "Готово к загрузке";
+
+/* Title for the share sheet entry */
+"waitlist.share-sheet.title" = "Вас пригласили!";
+
+/* Confirmation message */
+"web.url.remove.favorite.done" = "Страница удалена из избранного";
+
+/* Confirmation message */
+"web.url.save.bookmark.done" = "Закладка добавлена";
+
+/* Floating Info message */
+"web.url.save.bookmark.exists" = "Уже в закладках";
+
+/* Floating message indicating failure */
+"web.url.save.bookmark.none" = "Нечего добавить в закладки";
+
+/* Confirmation message */
+"web.url.save.favorite.done" = "Сайт добавлен в избранное";
+
+/* Cancel button for JavaScript alerts */
+"webJSAlert.cancel.button" = "Отменить";
+
+/* OK button for JavaScript alerts */
+"webJSAlert.OK.button" = "Хорошо";
+
+/* Alert title explaining the message is shown by a website */
+"webJSAlert.website-message.format" = "Сообщение от %@:";
+
+/* No comment provided by engineer. */
+"Welcome to the Duck Side!" = "Добро пожаловать на Утиную сторону!";
+
+/* Title for the Windows waitlist button redirecting to Mac waitlist */
+"windows-waitlist.join-waitlist-screen.mac-waitlist" = "Ищете версию для Mac?";
+
+/* Title for the settings subtitle */
+"windows-waitlist.settings.browse-privately" = "Полная конфиденциальность в Интернете, благодаря нашему приложению для Windows";
+
+/* Message used when sharing to iMessage */
+"windows-waitlist.share-sheet.message" = "Конфиденциальность в интернете на Windows? Легко!\n\nЗагрузите наше приложение по ссылке:\nhttps://duckduckgo.com/windows";
+
+/* Summary text for the Windows browser waitlist */
+"windows-waitlist.summary" = "В DuckDuckGo для Windows есть все необходимое для защиты данных в Сети: приватный поиск, принудительное шифрование, блокировка трекеров и всплывающих куки, а также перспектива разработок передовых средств обеспечения безопасности.";
+
+/* Title for the Windows Waitlist feature */
+"windows-waitlist.title" = "Приложение DuckDuckGo для Windows";
+
+/* Title for the Windows browser download link page */
+"windows-waitlist.waitlist-download-screen.try-duckduckgo-for-windows" = "DuckDuckGo для Windows!";
+

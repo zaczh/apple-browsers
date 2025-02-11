@@ -1,0 +1,30 @@
+Na DuckDuckGo, acreditamos que a melhor maneira de proteger as tuas informações pessoais de hackers, vigaristas e empresas invasoras da privacidade é impedir que sejam recolhidas. É por isso que milhões de pessoas escolhem o DuckDuckGo em vez do Chrome e de outros navegadores  para pesquisar e navegar online. O nosso motor de pesquisa incorporado é como o Google, mas nunca rastreia as tuas pesquisas. E as nossas proteções de navegação, como o bloqueio de rastreadores de anúncios e o bloqueio de cookies, ajudam a impedir que outras empresas recolham os teus dados. Ah, e o nosso navegador é gratuito — ganhamos dinheiro com anúncios de pesquisa que respeitam a privacidade, não explorando os teus dados. Retoma o controlo das tuas informações pessoais com o navegador concebido para a proteção de dados e não para a recolha de dados. 
+
+DESTAQUES DAS FUNCIONALIDADES
+Protege as tuas pesquisas por predefinição: o DuckDuckGo Search vem incorporado para que possas pesquisar facilmente online sem rastreios. 
+
+Protege o teu histórico de navegação: a nossa funcionalidade Tracker Loading Protection de terceiros bloqueia a maioria dos rastreadores antes de serem carregados, excedendo em muito o que a maioria dos navegadores populares oferece por predefinição. 
+
+Protege o teu e-mail (opcional): utiliza o serviço Email Protection para bloquear a maioria dos rastreadores de e-mail e esconder o teu endereço de e-mail existente com endereços @duck.com.  
+
+Vê vídeos do YouTube sem anúncios segmentados: o Duck Player protege-te de anúncios segmentados e cookies com uma interface sem distrações, que incorpora as definições de privacidade mais rigorosas do YouTube para vídeos incorporados.
+
+Aplica automaticamente a encriptação: protege os teus dados de espiões de rede e Wi-Fi, obrigando muitos sites a utilizar uma ligação HTTPS. 
+
+Sincroniza e faz cópias de segurança de forma segura (opcional): sincroniza palavras-passe e marcadores encriptados entre os teus dispositivos.
+
+Limpa os separadores e os dados de navegação num piscar de olhos com o Fire Button.
+
+Livra-te dos pop-ups de cookies e define automaticamente as tuas preferências para minimizar os cookies e maximizar a privacidade.
+
+E muitas mais proteções que não estão disponíveis na maioria dos navegadores, mesmo no modo de navegação privada, incluindo proteção contra rastreamento de links, a definição Global Privacy Control (GPC) e muito mais.
+
+Não precisas de esperar para assumir o controlo das tuas informações pessoais! Junta-te aos milhões de pessoas que usam o DuckDuckGo para proteger as suas pesquisas, navegação e e-mails do dia a dia. 
+
+Obtém mais informações sobre as nossas proteções gratuitas contra rastreamento em https://help.duckduckgo.com/privacy/web-tracking-protections
+
+Política de Privacidade https://duckduckgo.com/privacy/ 
+
+Termos de Utilização: https://duckduckgo.com/terms
+
+Nota sobre a proteção contra rastreadores de terceiros e anúncios de pesquisa: embora existam algumas limitações após os cliques em anúncios de pesquisa, ver anúncios na pesquisa do DuckDuckGo é anónima. Sabe mais aqui https://help.duckduckgo.com/privacy/web-tracking-protections
