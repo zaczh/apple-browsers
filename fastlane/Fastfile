@@ -1,0 +1,2 @@
+import("../iOS/fastlane/Fastfile")
+import("../macOS/fastlane/Fastfile")
