@@ -1,13 +1,17 @@
-name: iOS - Sync-End-to-End tests
+name: iOS - End-to-End tests
+
+defaults:
+  run:
+    working-directory: iOS
 
 on:
-  schedule:
-    - cron: '0 1 * * *' # run at 1 AM UTC
+  # schedule:
+  #   - cron: '0 4 * * *' # run at 4 AM UTC
   workflow_dispatch:
 
 jobs:
-  build-for-sync-end-to-end-tests:
-    name: Build for Sync End To End Tests
+  build-end-to-end-tests:
+    name: Build End to End Tests
     runs-on: macos-15-xlarge
     timeout-minutes: 30
 
@@ -21,7 +25,7 @@ jobs:
       run: |
          has_only_tags=$(jq '[ .pins[].state | has("version") ] | all' DuckDuckGo-iOS.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved)
          if [[ "$has_only_tags" == "true" ]]; then
-           echo "cache_key_hash=${{ hashFiles('DuckDuckGo-iOS.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved') }}" >> $GITHUB_ENV
+           echo "cache_key_hash=${{ hashFiles('iOS/DuckDuckGo-iOS.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved') }}" >> $GITHUB_ENV
          else
            echo "Package.resolved contains dependencies specified by branch or commit, skipping cache."
          fi
@@ -30,7 +34,7 @@ jobs:
       if: env.cache_key_hash
       uses: actions/cache@v4
       with:
-        path: DerivedData/SourcePackages
+        path: iOS/DerivedData/SourcePackages
         key: ${{ runner.os }}-spm-${{ env.cache_key_hash }}
         restore-keys: |
           ${{ runner.os }}-spm-
@@ -42,7 +46,7 @@ jobs:
       run: |
         set -o pipefail && xcodebuild \
           -scheme "iOS Browser" \
-          -destination "platform=iOS Simulator,name=iPhone 16" \
+          -destination "platform=iOS Simulator,name=iPhone 16,OS=18.1" \
           -derivedDataPath "DerivedData" \
           -skipPackagePluginValidation \
           -skipMacroValidation \
@@ -53,7 +57,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: duckduckgo-ios-app
-        path: DerivedData/Build/Products/Debug-iphonesimulator/DuckDuckGo.app
+        path: iOS/DerivedData/Build/Products/Debug-iphonesimulator/DuckDuckGo.app
 
     - name: Upload logs when workflow failed
       uses: actions/upload-artifact@v4
@@ -61,75 +65,58 @@ jobs:
       with:
         name: BuildLogs
         path: |
-          xcodebuild.log
-          DerivedData/Logs/Test/*.xcresult
+          iOS/xcodebuild.log
+          iOS/DerivedData/Logs/Test/*.xcresult
         retention-days: 7
 
-  sync-end-to-end-tests:
-    name: Sync End To End Tests
-    needs: build-for-sync-end-to-end-tests
+  end-to-end-tests:
+    name: End to end Tests
+    needs: build-end-to-end-tests
     runs-on: macos-15
-    timeout-minutes: 240
+    timeout-minutes: 300
     strategy:
       matrix:
-        os-version: [17] #[15, 16, 17]
+        test-tag: [release, privacy, securityTest, adClick]
       max-parallel: 1 # Uncomment this line to run tests sequentially.
       fail-fast: false
 
     steps:
+
     - name: Check out the code
       uses: actions/checkout@v4 # Don't need submodules here as this is only for the tests folder
-
-    - name: Create test account for Sync and return the recovery code
-      uses: duckduckgo/sync_crypto/action@main
-      id: sync-recovery-code
-      with:
-        debug: true
 
     - name: Retrieve Binary
       uses: actions/download-artifact@v4
       with:
         name: duckduckgo-ios-app
-        path: DerivedData/Build/Products/Debug-iphonesimulator/DuckDuckGo.app
+        path: iOS/DerivedData/Build/Products/Debug-iphonesimulator/DuckDuckGo.app
 
-    - name: Overwrite default config with sync one
-      run: |
-        cp .maestro/config-sync .maestro/config.yaml
-
-    - name: Sync e2e tests
+    - name: End to End tests
       id: upload
       uses: loremattei/action-maestro-cloud@fix-timeout-handling
       with:
         api-key: ${{ secrets.ROBIN_API_KEY }}
         project-id: ${{ vars.ROBIN_PROJECT_KEY }}
-        name: sync_${{ github.sha }}
-        timeout: 240
-        app-file: DerivedData/Build/Products/Debug-iphonesimulator/DuckDuckGo.app
+        name: ${{ matrix.test-tag }}_${{ github.sha }}
+        timeout: 300
+        app-file: iOS/DerivedData/Build/Products/Debug-iphonesimulator/DuckDuckGo.app
         workspace: .maestro
-        include-tags: sync
-        env: | 
-          ONBOARDING_COMPLETED=true
-          CODE=${{ steps.sync-recovery-code.outputs.recovery-code }}
-        ios-version: ${{ matrix.os-version }}
+        include-tags: ${{ matrix.test-tag }}
+        env: ONBOARDING_COMPLETED=true
+        ios-version: 17
         fail-on-timeout: true
-
-    - name: Reset config
-      run: |
-        git checkout .maestro/config.yaml
-
-    
 
   notify-failure:
     name: Notify on failure
     if: ${{ always() && contains(join(needs.*.result, ','), 'failure') && github.ref_name == 'main' }}
-    needs: [build-for-sync-end-to-end-tests, sync-end-to-end-tests]
+    needs: [build-end-to-end-tests, end-to-end-tests]
     runs-on: ubuntu-latest
 
     steps:
-      - name: Create Asana task when workflow failed
-        run: |
-          curl -s "https://app.asana.com/api/1.0/tasks" \
-            --header "Accept: application/json" \
-            --header "Authorization: Bearer ${{ secrets.ASANA_ACCESS_TOKEN }}" \
-            --header "Content-Type: application/json" \
-            --data ' { "data": { "name": "GH Workflow Failure - Sync End to end tests", "workspace": "${{ vars.ASANA_WORKSPACE_ID }}", "projects": [ "${{ vars.GH_ASANA_IOS_APP_PROJECT_ID }}" ], "notes" : "The end to end workflow has failed. See https://github.com/duckduckgo/iOS/actions/runs/${{ github.run_id }}" } }'
+    - name: Create Asana task when workflow failed
+      run: |
+        curl -s "https://app.asana.com/api/1.0/tasks" \
+          --header "Accept: application/json" \
+          --header "Authorization: Bearer ${{ secrets.ASANA_ACCESS_TOKEN }}" \
+          --header "Content-Type: application/json" \
+          --data ' { "data": { "name": "GH Workflow Failure - End to end tests", "workspace": "${{ vars.ASANA_WORKSPACE_ID }}", "projects": [ "${{ vars.GH_ASANA_IOS_APP_PROJECT_ID }}" ], "notes" : "The end to end workflow has failed. See https://github.com/duckduckgo/iOS/actions/runs/${{ github.run_id }}. For instructions on how to handle the failure(s), check https://app.asana.com/0/0/1206423571874502/f" } }'

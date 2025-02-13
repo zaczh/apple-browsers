@@ -1,4 +1,4 @@
-name: iOS - Close Stale Pull Requests
+name: Shared - Close Stale Pull Requests
 
 on:
   schedule:
