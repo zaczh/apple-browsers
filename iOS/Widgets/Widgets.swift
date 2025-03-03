@@ -266,6 +266,12 @@ struct VPNBundle: WidgetBundle {
         if #available(iOS 18, *) {
             VPNControlWidget()
             AIChatControlWidget()
+            SearchControlWidget()
+            PasswordsControlWidget()
+            FavoritesControlWidget()
+            VoiceSearchControlWidget()
+            EmailProtectionControlWidget()
+            FireButtonControlWidget()
         }
     }
 }
