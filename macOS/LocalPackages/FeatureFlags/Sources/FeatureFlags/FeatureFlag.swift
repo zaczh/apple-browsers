@@ -105,7 +105,7 @@ extension FeatureFlag: FeatureFlagDescribing {
         case .htmlNewTabPage:
             return .remoteReleasable(.subfeature(HTMLNewTabPageSubfeature.isLaunched))
         case .historyView:
-            return .disabled
+            return .remoteReleasable(.subfeature(HTMLHistoryPageSubfeature.isLaunched))
         case .autoUpdateInDEBUG:
             return .disabled
         case .autofillPartialFormSaves:
