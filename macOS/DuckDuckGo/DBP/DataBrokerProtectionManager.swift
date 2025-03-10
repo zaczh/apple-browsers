@@ -22,6 +22,7 @@ import DataBrokerProtection
 import LoginItems
 import Common
 import Freemium
+import NetworkProtectionIPC
 
 public final class DataBrokerProtectionManager {
 
@@ -83,6 +84,11 @@ extension DataBrokerProtectionManager: DataBrokerProtectionDataManagerDelegate {
 
     public func dataBrokerProtectionDataManagerWillOpenSendFeedbackForm() {
         NotificationCenter.default.post(name: .OpenUnifiedFeedbackForm, object: nil, userInfo: UnifiedFeedbackSource.userInfo(source: .pir))
+    }
+
+    public func dataBrokerProtectionDataManagerWillApplyVPNBypassSetting() async {
+        try? await Task.sleep(interval: 0.1)
+        try? await VPNControllerXPCClient.shared.command(.restartAdapter)
     }
 
     public func isAuthenticatedUser() -> Bool {
