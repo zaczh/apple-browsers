@@ -1561,7 +1561,7 @@ extension TabViewController: WKNavigationDelegate {
     func trackSecondSiteVisitIfNeeded(url: URL?) {
         // Track second non-SERP webpage visit
         guard url?.isDuckDuckGoSearch == false else { return }
-        onboardingPixelReporter.trackSecondSiteVisit()
+        onboardingPixelReporter.measureSecondSiteVisit()
     }
 
     func showDaxDialogOrStartTrackerNetworksAnimationIfNeeded() {
