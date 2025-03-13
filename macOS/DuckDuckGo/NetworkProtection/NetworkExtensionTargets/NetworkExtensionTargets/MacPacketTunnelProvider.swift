@@ -458,7 +458,7 @@ final class MacPacketTunnelProvider: PacketTunnelProvider {
             }
 
             self.accountManager = accountManager
-            tokenHandler = accountManager
+            tokenHandler = tokenStore
         } else {
             // MARK: V2
             let configuration = URLSessionConfiguration.default
@@ -769,7 +769,7 @@ final class DefaultWireGuardInterface: WireGuardInterface {
 
 extension MacPacketTunnelProvider: AccountManagerKeychainAccessDelegate {
 
-    public func accountManagerKeychainAccessFailed(accessType: AccountKeychainAccessType, error: AccountKeychainAccessError) {
+    public func accountManagerKeychainAccessFailed(accessType: AccountKeychainAccessType, error: any Error) {
         PixelKit.fire(PrivacyProErrorPixel.privacyProKeychainAccessError(accessType: accessType, accessError: error),
                       frequency: .legacyDailyAndCount)
     }
