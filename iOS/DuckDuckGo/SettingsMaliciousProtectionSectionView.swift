@@ -51,7 +51,7 @@ struct SettingsMaliciousProtectionSectionView: View {
                     }
             ) {
                 SettingsCellView(
-                    label: UserText.MaliciousSiteProtectionSettings.toggleMessage,
+                    label: model.maliciousSiteProtectionMessage,
                     accessory: .toggle(isOn: $model.isMaliciousSiteProtectionOn)
                 )
             }
