@@ -41,7 +41,6 @@ import VPNExtensionManagement
 @objc(Application)
 final class DuckDuckGoVPNApplication: NSApplication {
 
-    static let isAuthV2Enabled = false
     public var accountManager: AccountManager
     public var subscriptionManagerV2: any SubscriptionManagerV2
     private let _delegate: DuckDuckGoVPNAppDelegate
@@ -88,19 +87,6 @@ final class DuckDuckGoVPNApplication: NSApplication {
         setupPixelKit()
         self.delegate = _delegate
         accountManager.delegate = _delegate
-
-        var tokenFound: Bool
-        if !Self.isAuthV2Enabled {
-            tokenFound = accountManager.accessToken != nil
-        } else {
-            tokenFound = subscriptionManagerV2.isUserAuthenticated
-        }
-
-        if tokenFound {
-            Logger.networkProtection.debug("🟢 VPN Agent found token")
-        } else {
-            Logger.networkProtection.error("🔴 VPN Agent found no token")
-        }
     }
 
     required init?(coder: NSCoder) {
@@ -179,6 +165,19 @@ final class DuckDuckGoVPNAppDelegate: NSObject, NSApplicationDelegate {
         self.tunnelSettings.alignTo(subscriptionEnvironment: subscriptionEnvironment)
         self.configurationManager = ConfigurationManager(privacyConfigManager: privacyConfigurationManager, store: configurationStore)
         super.init()
+
+        var tokenFound: Bool
+        if !tunnelSettings.isAuthV2Enabled {
+            tokenFound = accountManager.accessToken != nil
+        } else {
+            tokenFound = subscriptionManagerV2.isUserAuthenticated
+        }
+
+        if tokenFound {
+            Logger.networkProtection.debug("🟢 VPN Agent found \(self.tunnelSettings.isAuthV2Enabled ? "Token Container (V2)" : "Token (V1)", privacy: .public)")
+        } else {
+            Logger.networkProtection.error("🔴 VPN Agent found no \(self.tunnelSettings.isAuthV2Enabled ? "Token Container (V2)" : "Token (V1)", privacy: .public)")
+        }
     }
 
     private var cancellables = Set<AnyCancellable>()
@@ -574,7 +573,7 @@ final class DuckDuckGoVPNAppDelegate: NSObject, NSApplicationDelegate {
 
         var isUserAuthenticated: Bool
         let entitlementsCheck: () async -> Swift.Result<Bool, Error>
-        if !DuckDuckGoVPNApplication.isAuthV2Enabled {
+        if !tunnelSettings.isAuthV2Enabled {
             isUserAuthenticated = accountManager.isUserAuthenticated
             entitlementsCheck = {
                 await self.accountManager.hasEntitlement(forProductName: .networkProtection, cachePolicy: .reloadIgnoringLocalCacheData)
