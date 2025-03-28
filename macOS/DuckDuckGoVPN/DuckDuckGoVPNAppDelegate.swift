@@ -97,7 +97,7 @@ final class DuckDuckGoVPNApplication: NSApplication {
     private func setupPixelKit() {
         let dryRun: Bool
 
-#if DEBUG
+#if DEBUG || REVIEW
         dryRun = true
 #else
         dryRun = false
