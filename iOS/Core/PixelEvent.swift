@@ -31,6 +31,14 @@ extension Pixel {
 
         case appInstall
         case appLaunch
+        /// Fires when the app launches as a result of tapping an http/https link outside the DDG browser.
+        ///
+        /// For more info check the [Asana Task](https://app.asana.com/0/72649045549333/1209593812414962/f)
+        case appLaunchFromExternalLink
+        /// Fires when the app launches as a result of an external app sharing a link with the DDG browser.
+        ///
+        /// For more info check the [Asana Task](https://app.asana.com/0/72649045549333/1209593812414962/f)
+        case appLaunchFromShareExtension
         case refreshPressed
         case pullToRefresh
 
@@ -1092,6 +1100,8 @@ extension Pixel.Event {
         switch self {
         case .appInstall: return "m_install"
         case .appLaunch: return "ml"
+        case .appLaunchFromExternalLink: return "m_app-launch_tapped-external-link"
+        case .appLaunchFromShareExtension: return "m_app-launch_shared-link"
         case .refreshPressed: return "m_r"
         case .pullToRefresh: return "m_pull-to-reload"
 
