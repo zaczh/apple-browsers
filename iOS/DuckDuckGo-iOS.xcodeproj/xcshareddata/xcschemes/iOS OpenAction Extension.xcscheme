@@ -30,7 +30,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84E341911E2F7EFB00BDBA6F"
-               BuildableName = "DuckDuckGo.app"
+               BuildableName = "YofiBrowser.app"
                BlueprintName = "DuckDuckGo"
                ReferencedContainer = "container:DuckDuckGo-iOS.xcodeproj">
             </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84E341911E2F7EFB00BDBA6F"
-            BuildableName = "DuckDuckGo.app"
+            BuildableName = "YofiBrowser.app"
             BlueprintName = "DuckDuckGo"
             ReferencedContainer = "container:DuckDuckGo-iOS.xcodeproj">
          </BuildableReference>
@@ -101,7 +101,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84E341911E2F7EFB00BDBA6F"
-            BuildableName = "DuckDuckGo.app"
+            BuildableName = "YofiBrowser.app"
             BlueprintName = "DuckDuckGo"
             ReferencedContainer = "container:DuckDuckGo-iOS.xcodeproj">
          </BuildableReference>
