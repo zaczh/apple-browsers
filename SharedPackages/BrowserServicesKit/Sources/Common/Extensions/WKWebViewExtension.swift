@@ -35,14 +35,14 @@ public extension WKWebView {
         }
     }
 
-    // This is meant to cause the `Ambiguous use` error, because async `evaluateJavaScript(_) -> Any`
-    // call will crash when its result is `nil`.
-    // Use typed `try await evaluateJavaScript(script) as Void?` (or other type you need),
-    // or even better `try await evaluateJavaScript(script, in: nil, in: .page|.defaultClient) -> Any?` (available in macOS 12/iOS 15)
-    @available(*, deprecated, message: "Use `try await evaluateJavaScript(script) as Void?` instead.")
-    @MainActor func evaluateJavaScript(_ script: String) async throws {
-        assertionFailure("Use `try await evaluateJavaScript(script) as Void?` instead of `try await evaluateJavaScript(script)` as it will crash in runtime")
-        try await evaluateJavaScript(script) as Void?
-    }
+//    // This is meant to cause the `Ambiguous use` error, because async `evaluateJavaScript(_) -> Any`
+//    // call will crash when its result is `nil`.
+//    // Use typed `try await evaluateJavaScript(script) as Void?` (or other type you need),
+//    // or even better `try await evaluateJavaScript(script, in: nil, in: .page|.defaultClient) -> Any?` (available in macOS 12/iOS 15)
+//    @available(*, deprecated, message: "Use `try await evaluateJavaScript(script) as Void?` instead.")
+//    @MainActor func evaluateJavaScript(_ script: String) async throws {
+//        assertionFailure("Use `try await evaluateJavaScript(script) as Void?` instead of `try await evaluateJavaScript(script)` as it will crash in runtime")
+//        try await evaluateJavaScript(script) as Void?
+//    }
 
 }

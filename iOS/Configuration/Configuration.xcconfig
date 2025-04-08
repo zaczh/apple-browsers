@@ -13,8 +13,8 @@
 //  limitations under the License.
 //
 
-#include "DuckDuckGoDeveloper.xcconfig"
-#include? "ExternalDeveloper.xcconfig"
+//#include "DuckDuckGoDeveloper.xcconfig"
+#include "ExternalDeveloper.xcconfig"
 #include "Version.xcconfig"
 #include "BuildNumber.xcconfig"
 
